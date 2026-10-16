@@ -1,0 +1,5940 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Per-serving calorie, macro and fiber estimates were built from FoodData Central entries for each ingredient."
+    },
+    {
+      "name": "USDA MyPlate",
+      "url": "https://www.myplate.gov/",
+      "note": "Food-group balance: each main pairs a lean protein with vegetables and a whole-grain or starchy side."
+    },
+    {
+      "name": "Dietary Guidelines for Americans",
+      "url": "https://www.dietaryguidelines.gov/",
+      "note": "Guided limits on added sugar and sodium and the emphasis on whole grains, fiber and varied protein foods."
+    },
+    {
+      "name": "FoodSafety.gov — Cold Food Storage Chart",
+      "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "note": "Fridge-day estimates for cooked leftovers (generally 3–4 days)."
+    },
+    {
+      "name": "International Society of Sports Nutrition position stand: protein and exercise (2017)",
+      "url": "https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0177-8",
+      "note": "Supports ~1.4–2.0 g/kg/day protein spread across meals of roughly 20–40 g for active people."
+    },
+    {
+      "name": "Harvard T.H. Chan School of Public Health — Healthy Eating Plate",
+      "url": "https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/",
+      "note": "Plate template: half vegetables/fruit, a quarter whole grains, a quarter healthy protein, healthy oils."
+    }
+  ],
+  "recipes": [
+    {
+      "id": "berry-protein-overnight-oats",
+      "title": "Berry Protein Overnight Oats",
+      "subtitle": "Stir tonight, grab tomorrow",
+      "description": "Creamy oats soaked with Greek yogurt, milk and vanilla protein, swirled with berries. Four jars cover most of the week.",
+      "mealType": "BREAKFAST",
+      "cuisine": "American",
+      "prepMinutes": 10,
+      "cookMinutes": 0,
+      "servings": 4,
+      "calories": 464,
+      "proteinG": 38,
+      "carbsG": 60,
+      "fatG": 8,
+      "fiberG": 10,
+      "imageKey": "oats",
+      "accentColor": "#6D5BD0",
+      "tags": [
+        "quick",
+        "no-cook",
+        "vegetarian",
+        "on-the-go",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 4,
+      "sourceName": "Meal Prepper Kitchen (original) · protein portion via ISSN position stand",
+      "sourceUrl": "https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0177-8",
+      "ingredients": [
+        {
+          "name": "rolled oats",
+          "quantity": 2.0,
+          "unit": "cup",
+          "aisle": "GRAINS",
+          "estPriceUsd": 0.8,
+          "pantryStaple": false
+        },
+        {
+          "name": "greek yogurt",
+          "quantity": 2.0,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 3.0,
+          "note": "nonfat plain",
+          "pantryStaple": false
+        },
+        {
+          "name": "milk",
+          "quantity": 2.0,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.6,
+          "note": "fat-free or 1%",
+          "pantryStaple": false
+        },
+        {
+          "name": "whey protein powder",
+          "quantity": 80,
+          "unit": "g",
+          "aisle": "PANTRY",
+          "estPriceUsd": 3.2,
+          "note": "vanilla, about 2–3 scoops",
+          "pantryStaple": false
+        },
+        {
+          "name": "chia seed",
+          "quantity": 4,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 1.0,
+          "pantryStaple": false
+        },
+        {
+          "name": "frozen mixed berries",
+          "quantity": 2.0,
+          "unit": "cup",
+          "aisle": "FROZEN",
+          "estPriceUsd": 2.0,
+          "pantryStaple": false
+        },
+        {
+          "name": "maple syrup",
+          "quantity": 2,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.7,
+          "pantryStaple": true
+        },
+        {
+          "name": "vanilla extract",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.3,
+          "pantryStaple": true
+        },
+        {
+          "name": "ground cinnamon",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.06,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "In a large bowl, whisk the milk, Greek yogurt, protein powder, maple syrup, vanilla and cinnamon until smooth.",
+        "Stir in the oats and chia seeds.",
+        "Divide among 4 jars and top each with 1/2 cup frozen berries (they thaw into a jammy layer overnight).",
+        "Refrigerate at least 6 hours. Eat cold, or microwave 60–90 seconds. Keeps 4 days."
+      ]
+    },
+    {
+      "id": "spinach-feta-egg-bites",
+      "title": "Spinach & Feta Egg Bites",
+      "subtitle": "Bake once, breakfast all week",
+      "description": "Fluffy muffin-tin egg bites with spinach, tomato and feta, paired with a toasted English muffin.",
+      "mealType": "BREAKFAST",
+      "cuisine": "Greek",
+      "prepMinutes": 8,
+      "cookMinutes": 20,
+      "servings": 4,
+      "calories": 387,
+      "proteinG": 31,
+      "carbsG": 32,
+      "fatG": 15,
+      "fiberG": 5,
+      "imageKey": "eggs",
+      "accentColor": "#2FA37A",
+      "tags": [
+        "vegetarian",
+        "freezer-friendly",
+        "on-the-go",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 4,
+      "sourceName": "Meal Prepper Kitchen (original) · fridge times via FoodSafety.gov cold storage chart",
+      "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "ingredients": [
+        {
+          "name": "egg",
+          "quantity": 8,
+          "unit": "whole",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 2.64,
+          "pantryStaple": false
+        },
+        {
+          "name": "liquid egg white",
+          "quantity": 1.5,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 1.88,
+          "pantryStaple": false
+        },
+        {
+          "name": "baby spinach",
+          "quantity": 2.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 1.1,
+          "pantryStaple": false
+        },
+        {
+          "name": "cherry tomato",
+          "quantity": 1.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 1.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "feta",
+          "quantity": 3,
+          "unit": "oz",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 1.65,
+          "pantryStaple": false
+        },
+        {
+          "name": "english muffin",
+          "quantity": 4,
+          "unit": "whole",
+          "aisle": "BAKERY",
+          "estPriceUsd": 2.4,
+          "note": "whole wheat",
+          "pantryStaple": false
+        },
+        {
+          "name": "olive oil",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.1,
+          "note": "for greasing",
+          "pantryStaple": true
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Heat oven to 350°F and coat a 12-cup muffin tin with oil.",
+        "Whisk the eggs, egg whites, salt and pepper in a large measuring cup.",
+        "Divide the chopped spinach, halved cherry tomatoes and crumbled feta among the cups, then pour in the egg mixture.",
+        "Bake 18–20 minutes until set in the center. Cool 5 minutes before removing.",
+        "Serve 3 bites with a toasted English muffin. Refrigerate up to 4 days or freeze 2 months; reheat 45 seconds."
+      ]
+    },
+    {
+      "id": "smoked-salmon-cottage-toast",
+      "title": "Smoked Salmon Cottage Toast",
+      "subtitle": "Bagel-shop flavor in 5 minutes",
+      "description": "Whole-grain toast piled with cottage cheese, smoked salmon, cucumber and everything seasoning.",
+      "mealType": "BREAKFAST",
+      "cuisine": "American",
+      "prepMinutes": 5,
+      "cookMinutes": 0,
+      "servings": 1,
+      "calories": 426,
+      "proteinG": 38,
+      "carbsG": 46,
+      "fatG": 10,
+      "fiberG": 7,
+      "imageKey": "toast",
+      "accentColor": "#D9668F",
+      "tags": [
+        "quick",
+        "no-cook",
+        "pescatarian",
+        "high-protein"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": false,
+      "fridgeDays": 0,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "whole grain bread",
+          "quantity": 2,
+          "unit": "slice",
+          "aisle": "BAKERY",
+          "estPriceUsd": 0.6,
+          "pantryStaple": false
+        },
+        {
+          "name": "cottage cheese",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.75,
+          "note": "2% low-fat",
+          "pantryStaple": false
+        },
+        {
+          "name": "smoked salmon",
+          "quantity": 3,
+          "unit": "oz",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 3.75,
+          "pantryStaple": false
+        },
+        {
+          "name": "cucumber",
+          "quantity": 0.25,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.23,
+          "pantryStaple": false
+        },
+        {
+          "name": "lemon",
+          "quantity": 0.25,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.17,
+          "pantryStaple": false
+        },
+        {
+          "name": "everything bagel seasoning",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.07,
+          "pantryStaple": true
+        },
+        {
+          "name": "black pepper",
+          "quantity": 0.1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Toast the bread.",
+        "Spread each slice with cottage cheese (blend it first for a whipped, cream-cheese texture if you like).",
+        "Top with smoked salmon, thin cucumber slices and a squeeze of lemon.",
+        "Finish with everything bagel seasoning and black pepper."
+      ]
+    },
+    {
+      "id": "turkey-egg-freezer-burritos",
+      "title": "Turkey & Egg Freezer Burritos",
+      "subtitle": "Wrap four, freeze, microwave",
+      "description": "Seasoned turkey, scrambled eggs, black beans, cheddar and salsa rolled into whole-wheat tortillas.",
+      "mealType": "BREAKFAST",
+      "cuisine": "Mexican",
+      "prepMinutes": 10,
+      "cookMinutes": 12,
+      "servings": 4,
+      "calories": 461,
+      "proteinG": 37,
+      "carbsG": 40,
+      "fatG": 17,
+      "fiberG": 7,
+      "imageKey": "wrap",
+      "accentColor": "#E07A2E",
+      "tags": [
+        "freezer-friendly",
+        "on-the-go",
+        "microwave",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 4,
+      "sourceName": "Meal Prepper Kitchen (original) · fridge times via FoodSafety.gov cold storage chart",
+      "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "ingredients": [
+        {
+          "name": "ground turkey",
+          "quantity": 0.5,
+          "unit": "lb",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 2.75,
+          "note": "93% lean",
+          "pantryStaple": false
+        },
+        {
+          "name": "egg",
+          "quantity": 4,
+          "unit": "whole",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 1.32,
+          "pantryStaple": false
+        },
+        {
+          "name": "liquid egg white",
+          "quantity": 1.0,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 1.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "black beans",
+          "quantity": 0.67,
+          "unit": "can",
+          "aisle": "CANNED",
+          "estPriceUsd": 0.73,
+          "note": "rinsed",
+          "pantryStaple": false
+        },
+        {
+          "name": "shredded cheddar",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.88,
+          "pantryStaple": false
+        },
+        {
+          "name": "salsa",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "CANNED",
+          "estPriceUsd": 0.88,
+          "pantryStaple": false
+        },
+        {
+          "name": "whole wheat tortilla",
+          "quantity": 4,
+          "unit": "whole",
+          "aisle": "BAKERY",
+          "estPriceUsd": 1.6,
+          "note": "10-inch",
+          "pantryStaple": false
+        },
+        {
+          "name": "taco seasoning",
+          "quantity": 1,
+          "unit": "tbsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.3,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Brown the ground turkey in a nonstick skillet over medium-high heat, 5–6 minutes, then stir in the taco seasoning and drained beans.",
+        "Push to one side; add the eggs and egg whites and scramble 2–3 minutes until just set. Fold everything together.",
+        "Warm the tortillas 15 seconds so they roll without cracking.",
+        "Fill each with the scramble, 2 tbsp cheddar and 2 tbsp salsa; roll tightly, tucking the ends.",
+        "Wrap in foil or parchment. Refrigerate 4 days or freeze 3 months; microwave 1 1/2–2 minutes from the fridge (3 from frozen)."
+      ]
+    },
+    {
+      "id": "greek-yogurt-power-parfait",
+      "title": "Greek Yogurt Power Parfait",
+      "subtitle": "30 g protein, zero cooking",
+      "description": "Thick Greek yogurt layered with berries, crunchy granola and a drizzle of honey.",
+      "mealType": "BREAKFAST",
+      "cuisine": "Greek",
+      "prepMinutes": 3,
+      "cookMinutes": 0,
+      "servings": 1,
+      "calories": 358,
+      "proteinG": 32,
+      "carbsG": 44,
+      "fatG": 6,
+      "fiberG": 5,
+      "imageKey": "parfait",
+      "accentColor": "#3E8ED0",
+      "tags": [
+        "quick",
+        "no-cook",
+        "vegetarian",
+        "on-the-go",
+        "high-protein"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": false,
+      "fridgeDays": 0,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "greek yogurt",
+          "quantity": 1.25,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 1.88,
+          "note": "nonfat plain",
+          "pantryStaple": false
+        },
+        {
+          "name": "frozen mixed berries",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "FROZEN",
+          "estPriceUsd": 0.5,
+          "pantryStaple": false
+        },
+        {
+          "name": "granola",
+          "quantity": 0.25,
+          "unit": "cup",
+          "aisle": "GRAINS",
+          "estPriceUsd": 0.38,
+          "note": "low-sugar",
+          "pantryStaple": false
+        },
+        {
+          "name": "honey",
+          "quantity": 0.33,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.07,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Microwave the frozen berries 30 seconds (or thaw overnight in the fridge).",
+        "Spoon half the yogurt into a glass or jar, then half the berries.",
+        "Repeat the layers and top with granola and honey just before eating so it stays crunchy."
+      ]
+    },
+    {
+      "id": "chocolate-pb-protein-smoothie",
+      "title": "Chocolate PB Protein Smoothie",
+      "subtitle": "Tastes like a milkshake",
+      "description": "Frozen banana, cocoa, powdered peanut butter and whey blended thick, with a stealth handful of spinach.",
+      "mealType": "BREAKFAST",
+      "cuisine": "American",
+      "prepMinutes": 5,
+      "cookMinutes": 0,
+      "servings": 1,
+      "calories": 392,
+      "proteinG": 40,
+      "carbsG": 49,
+      "fatG": 4,
+      "fiberG": 6,
+      "imageKey": "smoothie",
+      "accentColor": "#8A6B4E",
+      "tags": [
+        "quick",
+        "no-cook",
+        "vegetarian",
+        "on-the-go",
+        "high-protein"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": false,
+      "fridgeDays": 0,
+      "sourceName": "Meal Prepper Kitchen (original) · protein portion via ISSN position stand",
+      "sourceUrl": "https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0177-8",
+      "ingredients": [
+        {
+          "name": "milk",
+          "quantity": 1.0,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.3,
+          "note": "fat-free or 1%",
+          "pantryStaple": false
+        },
+        {
+          "name": "whey protein powder",
+          "quantity": 30,
+          "unit": "g",
+          "aisle": "PANTRY",
+          "estPriceUsd": 1.2,
+          "note": "chocolate or vanilla",
+          "pantryStaple": false
+        },
+        {
+          "name": "banana",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.3,
+          "note": "frozen in chunks",
+          "pantryStaple": false
+        },
+        {
+          "name": "powdered peanut butter",
+          "quantity": 2,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.5,
+          "pantryStaple": false
+        },
+        {
+          "name": "cocoa powder",
+          "quantity": 1,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.15,
+          "pantryStaple": true
+        },
+        {
+          "name": "baby spinach",
+          "quantity": 1.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.55,
+          "pantryStaple": false
+        }
+      ],
+      "steps": [
+        "Add the milk to the blender first, then the protein powder, cocoa and powdered peanut butter.",
+        "Add the spinach, frozen banana and a few ice cubes.",
+        "Blend 45–60 seconds until thick and smooth. Add a splash more milk if it stalls."
+      ]
+    },
+    {
+      "id": "sheet-pan-turkey-sweet-potato-hash",
+      "title": "Sheet-Pan Turkey Sweet Potato Hash",
+      "subtitle": "Hands-off, topped with an egg",
+      "description": "Roasted sweet potato, peppers and onion with crumbled seasoned turkey; crack an egg on top when you reheat.",
+      "mealType": "BREAKFAST",
+      "cuisine": "American",
+      "prepMinutes": 8,
+      "cookMinutes": 22,
+      "servings": 4,
+      "calories": 441,
+      "proteinG": 31,
+      "carbsG": 32,
+      "fatG": 21,
+      "fiberG": 5,
+      "imageKey": "sheet_pan",
+      "accentColor": "#F29E4C",
+      "tags": [
+        "sheet-pan",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 4,
+      "sourceName": "Meal Prepper Kitchen (original) · fridge times via FoodSafety.gov cold storage chart",
+      "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "ingredients": [
+        {
+          "name": "ground turkey",
+          "quantity": 1.0,
+          "unit": "lb",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 5.49,
+          "note": "93% lean",
+          "pantryStaple": false
+        },
+        {
+          "name": "sweet potato",
+          "quantity": 4,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 4.8,
+          "note": "medium, 1/2-inch dice",
+          "pantryStaple": false
+        },
+        {
+          "name": "bell pepper",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 1.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "onion",
+          "quantity": 0.5,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.45,
+          "pantryStaple": false
+        },
+        {
+          "name": "olive oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.4,
+          "pantryStaple": true
+        },
+        {
+          "name": "smoked paprika",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.1,
+          "pantryStaple": true
+        },
+        {
+          "name": "garlic powder",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.03,
+          "pantryStaple": true
+        },
+        {
+          "name": "ground cumin",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.04,
+          "pantryStaple": true
+        },
+        {
+          "name": "egg",
+          "quantity": 4,
+          "unit": "whole",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 1.32,
+          "pantryStaple": false
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Heat oven to 425°F. Toss the diced sweet potatoes, pepper and onion with the oil, smoked paprika, salt and pepper on a sheet pan.",
+        "Roast 10 minutes. Scatter small pinches of raw ground turkey (seasoned with garlic powder and cumin) over the vegetables.",
+        "Roast 12 more minutes until the turkey reaches 165°F and the potatoes are browned.",
+        "Fry or microwave an egg for each serving (a mug egg takes 60–75 seconds) and set it on top.",
+        "Store the hash in 4 containers up to 4 days; cook the egg fresh each morning."
+      ]
+    },
+    {
+      "id": "cottage-cheese-oat-pancakes",
+      "title": "Cottage Cheese Oat Pancakes",
+      "subtitle": "Blender batter, no flour",
+      "description": "Tender blender pancakes made from oats, eggs, cottage cheese and banana, topped with warm berries.",
+      "mealType": "BREAKFAST",
+      "cuisine": "American",
+      "prepMinutes": 5,
+      "cookMinutes": 10,
+      "servings": 1,
+      "calories": 452,
+      "proteinG": 30,
+      "carbsG": 47,
+      "fatG": 16,
+      "fiberG": 5,
+      "imageKey": "oats",
+      "accentColor": "#F6C945",
+      "tags": [
+        "quick",
+        "vegetarian",
+        "freezer-friendly",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 2,
+      "mealPrepFriendly": true,
+      "fridgeDays": 3,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "rolled oats",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "GRAINS",
+          "estPriceUsd": 0.2,
+          "pantryStaple": false
+        },
+        {
+          "name": "cottage cheese",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.75,
+          "note": "2% low-fat",
+          "pantryStaple": false
+        },
+        {
+          "name": "egg",
+          "quantity": 2,
+          "unit": "whole",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.66,
+          "pantryStaple": false
+        },
+        {
+          "name": "banana",
+          "quantity": 0.5,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.15,
+          "pantryStaple": false
+        },
+        {
+          "name": "frozen mixed berries",
+          "quantity": 0.25,
+          "unit": "cup",
+          "aisle": "FROZEN",
+          "estPriceUsd": 0.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "ground cinnamon",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "olive oil",
+          "quantity": 0.25,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.05,
+          "pantryStaple": true
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Blend the oats, cottage cheese, eggs, half the banana, cinnamon and a pinch of salt until smooth, about 30 seconds.",
+        "Heat a nonstick skillet over medium and brush with oil.",
+        "Pour 1/4-cup rounds and cook 2 minutes until bubbles form, flip and cook 1 minute more.",
+        "Top with the remaining banana slices and microwaved berries. Extra pancakes freeze well; toast to reheat."
+      ]
+    },
+    {
+      "id": "turmeric-tofu-scramble",
+      "title": "Turmeric Tofu Scramble",
+      "subtitle": "Vegan-friendly and eggy",
+      "description": "Crumbled tofu sautéed with turmeric, peppers and spinach, served with toast and avocado.",
+      "mealType": "BREAKFAST",
+      "cuisine": "American",
+      "prepMinutes": 5,
+      "cookMinutes": 10,
+      "servings": 2,
+      "calories": 426,
+      "proteinG": 27,
+      "carbsG": 30,
+      "fatG": 22,
+      "fiberG": 7,
+      "imageKey": "tofu",
+      "accentColor": "#F6C945",
+      "tags": [
+        "quick",
+        "vegetarian",
+        "one-pan",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 3,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "extra-firm tofu",
+          "quantity": 1,
+          "unit": "pack",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 2.49,
+          "note": "14 oz block",
+          "pantryStaple": false
+        },
+        {
+          "name": "bell pepper",
+          "quantity": 0.5,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.62,
+          "pantryStaple": false
+        },
+        {
+          "name": "baby spinach",
+          "quantity": 2.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 1.1,
+          "pantryStaple": false
+        },
+        {
+          "name": "ground turmeric",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.04,
+          "pantryStaple": true
+        },
+        {
+          "name": "garlic powder",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.03,
+          "pantryStaple": true
+        },
+        {
+          "name": "olive oil",
+          "quantity": 0.67,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.13,
+          "pantryStaple": true
+        },
+        {
+          "name": "whole grain bread",
+          "quantity": 2,
+          "unit": "slice",
+          "aisle": "BAKERY",
+          "estPriceUsd": 0.6,
+          "pantryStaple": false
+        },
+        {
+          "name": "avocado",
+          "quantity": 0.5,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.75,
+          "pantryStaple": false
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Pat the tofu dry and crumble it into bite-size pieces with your hands.",
+        "Heat oil in a nonstick skillet over medium-high. Cook the diced pepper 3 minutes.",
+        "Add the tofu, turmeric, garlic powder, salt and pepper; cook 5 minutes, stirring, until lightly golden.",
+        "Fold in the spinach until wilted, about 1 minute.",
+        "Serve each portion with a slice of toast and 1/4 avocado. Leftover scramble keeps 3 days."
+      ]
+    },
+    {
+      "id": "kimchi-egg-rice-bowl",
+      "title": "Kimchi Egg Rice Bowl",
+      "subtitle": "Savory breakfast, 10 minutes",
+      "description": "Jammy fried eggs and egg whites over warm rice with tangy kimchi, sesame and green onion.",
+      "mealType": "BREAKFAST",
+      "cuisine": "Korean",
+      "prepMinutes": 3,
+      "cookMinutes": 7,
+      "servings": 1,
+      "calories": 412,
+      "proteinG": 30,
+      "carbsG": 37,
+      "fatG": 16,
+      "fiberG": 3,
+      "imageKey": "bowl_grain",
+      "accentColor": "#E5533D",
+      "tags": [
+        "quick",
+        "microwave",
+        "spicy",
+        "high-protein"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": false,
+      "fridgeDays": 0,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "microwave rice pouch",
+          "quantity": 0.4,
+          "unit": "pack",
+          "aisle": "GRAINS",
+          "estPriceUsd": 0.92,
+          "note": "brown or jasmine",
+          "pantryStaple": false
+        },
+        {
+          "name": "egg",
+          "quantity": 2,
+          "unit": "whole",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.66,
+          "pantryStaple": false
+        },
+        {
+          "name": "liquid egg white",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.62,
+          "pantryStaple": false
+        },
+        {
+          "name": "kimchi",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 1.0,
+          "pantryStaple": false
+        },
+        {
+          "name": "sesame oil",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.12,
+          "pantryStaple": true
+        },
+        {
+          "name": "green onion",
+          "quantity": 0.15,
+          "unit": "bunch",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.15,
+          "pantryStaple": false
+        },
+        {
+          "name": "soy sauce",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.05,
+          "note": "low-sodium",
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Microwave the rice pouch 90 seconds; measure 3/4 cup into a bowl and save the rest.",
+        "Heat sesame oil in a nonstick skillet over medium. Pour in the egg whites, then crack in the eggs.",
+        "Cover and cook 3–4 minutes until the whites are set and yolks still soft.",
+        "Slide the eggs over the rice and top with kimchi, sliced green onion and a splash of soy sauce."
+      ]
+    },
+    {
+      "id": "rotisserie-chicken-burrito-bowl",
+      "title": "Rotisserie Chicken Burrito Bowl",
+      "subtitle": "Better than takeout in 8 minutes",
+      "description": "Microwave rice, shredded rotisserie chicken, black beans, salsa and avocado over crisp romaine.",
+      "mealType": "LUNCH",
+      "cuisine": "Mexican",
+      "prepMinutes": 7,
+      "cookMinutes": 1,
+      "servings": 2,
+      "calories": 551,
+      "proteinG": 49,
+      "carbsG": 55,
+      "fatG": 15,
+      "fiberG": 11,
+      "imageKey": "bowl_grain",
+      "accentColor": "#E07A2E",
+      "tags": [
+        "quick",
+        "tonight",
+        "microwave",
+        "no-cook",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 3,
+      "sourceName": "Meal Prepper Kitchen (original) · plate balance via Harvard Healthy Eating Plate",
+      "sourceUrl": "https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/",
+      "ingredients": [
+        {
+          "name": "microwave rice pouch",
+          "quantity": 0.75,
+          "unit": "pack",
+          "aisle": "GRAINS",
+          "estPriceUsd": 1.72,
+          "note": "cilantro-lime or brown",
+          "pantryStaple": false
+        },
+        {
+          "name": "rotisserie chicken",
+          "quantity": 0.45,
+          "unit": "whole",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 3.6,
+          "note": "about 10 oz meat",
+          "pantryStaple": false
+        },
+        {
+          "name": "black beans",
+          "quantity": 0.5,
+          "unit": "can",
+          "aisle": "CANNED",
+          "estPriceUsd": 0.55,
+          "note": "rinsed",
+          "pantryStaple": false
+        },
+        {
+          "name": "salsa",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "CANNED",
+          "estPriceUsd": 0.88,
+          "pantryStaple": false
+        },
+        {
+          "name": "avocado",
+          "quantity": 0.5,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.75,
+          "pantryStaple": false
+        },
+        {
+          "name": "romaine heart",
+          "quantity": 0.5,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.62,
+          "pantryStaple": false
+        },
+        {
+          "name": "lime",
+          "quantity": 0.5,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.2,
+          "pantryStaple": false
+        },
+        {
+          "name": "cilantro",
+          "quantity": 0.25,
+          "unit": "bunch",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.25,
+          "pantryStaple": false
+        }
+      ],
+      "steps": [
+        "Microwave the rice pouch 90 seconds and the rinsed beans in a covered bowl for 60 seconds.",
+        "Shred the rotisserie chicken (breast meat is leanest) and squeeze lime over it.",
+        "Divide rice, beans, chicken and chopped romaine between 2 bowls.",
+        "Top with salsa, sliced avocado and cilantro. For tomorrow's lunch, pack the avocado separately."
+      ]
+    },
+    {
+      "id": "greek-chicken-pita",
+      "title": "Greek Chicken Pita",
+      "subtitle": "Tzatziki without the fuss",
+      "description": "Warm pita stuffed with chicken, quick yogurt-cucumber sauce, tomatoes, red onion and feta.",
+      "mealType": "LUNCH",
+      "cuisine": "Greek",
+      "prepMinutes": 8,
+      "cookMinutes": 1,
+      "servings": 2,
+      "calories": 450,
+      "proteinG": 48,
+      "carbsG": 42,
+      "fatG": 10,
+      "fiberG": 6,
+      "imageKey": "sandwich",
+      "accentColor": "#3E8ED0",
+      "tags": [
+        "quick",
+        "tonight",
+        "no-cook",
+        "high-protein"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": false,
+      "fridgeDays": 0,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "whole wheat pita",
+          "quantity": 2,
+          "unit": "whole",
+          "aisle": "BAKERY",
+          "estPriceUsd": 1.2,
+          "pantryStaple": false
+        },
+        {
+          "name": "rotisserie chicken",
+          "quantity": 0.35,
+          "unit": "whole",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 2.8,
+          "note": "about 8 oz meat",
+          "pantryStaple": false
+        },
+        {
+          "name": "greek yogurt",
+          "quantity": 0.67,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 1.01,
+          "note": "nonfat plain",
+          "pantryStaple": false
+        },
+        {
+          "name": "cucumber",
+          "quantity": 0.5,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.45,
+          "pantryStaple": false
+        },
+        {
+          "name": "cherry tomato",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.62,
+          "pantryStaple": false
+        },
+        {
+          "name": "red onion",
+          "quantity": 0.25,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "feta",
+          "quantity": 1,
+          "unit": "oz",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.55,
+          "pantryStaple": false
+        },
+        {
+          "name": "garlic",
+          "quantity": 1,
+          "unit": "clove",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.1,
+          "pantryStaple": true
+        },
+        {
+          "name": "lemon",
+          "quantity": 0.5,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.35,
+          "pantryStaple": false
+        },
+        {
+          "name": "dried oregano",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.04,
+          "pantryStaple": true
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Grate half the cucumber into the yogurt; stir in the garlic, lemon juice, oregano and a pinch of salt.",
+        "Slice the remaining cucumber, halve the tomatoes and thinly slice the red onion.",
+        "Warm the pitas 20 seconds in the microwave. Shred the rotisserie chicken.",
+        "Fill each pita with chicken, vegetables, a big spoon of the sauce and crumbled feta."
+      ]
+    },
+    {
+      "id": "tuna-white-bean-salad",
+      "title": "Lemony Tuna & White Bean Salad",
+      "subtitle": "Pantry lunch, no stove",
+      "description": "Tuna, creamy cannellini beans, peppery arugula and tomatoes tossed in lemon and olive oil.",
+      "mealType": "LUNCH",
+      "cuisine": "Mediterranean",
+      "prepMinutes": 8,
+      "cookMinutes": 0,
+      "servings": 2,
+      "calories": 432,
+      "proteinG": 38,
+      "carbsG": 34,
+      "fatG": 16,
+      "fiberG": 10,
+      "imageKey": "salad",
+      "accentColor": "#9BC53D",
+      "tags": [
+        "quick",
+        "tonight",
+        "no-cook",
+        "pescatarian",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 3,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "canned tuna",
+          "quantity": 2,
+          "unit": "can",
+          "aisle": "CANNED",
+          "estPriceUsd": 3.58,
+          "note": "5 oz cans in water, drained",
+          "pantryStaple": false
+        },
+        {
+          "name": "cannellini beans",
+          "quantity": 1,
+          "unit": "can",
+          "aisle": "CANNED",
+          "estPriceUsd": 1.29,
+          "note": "rinsed",
+          "pantryStaple": false
+        },
+        {
+          "name": "arugula",
+          "quantity": 4.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 2.4,
+          "pantryStaple": false
+        },
+        {
+          "name": "cherry tomato",
+          "quantity": 1.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 1.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "red onion",
+          "quantity": 0.25,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "olive oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.4,
+          "pantryStaple": true
+        },
+        {
+          "name": "lemon",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.7,
+          "pantryStaple": false
+        },
+        {
+          "name": "dijon mustard",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.08,
+          "pantryStaple": true
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Whisk the olive oil, lemon zest and juice, dijon, salt and pepper in a large bowl.",
+        "Add the drained tuna, rinsed beans, halved tomatoes and finely diced red onion; toss gently.",
+        "Serve over arugula. To pack for tomorrow, keep the arugula separate so it stays crisp (salad keeps 3 days)."
+      ]
+    },
+    {
+      "id": "chicken-caesar-wrap",
+      "title": "Greek Yogurt Chicken Caesar Wrap",
+      "subtitle": "Creamy, tangy, lighter",
+      "description": "Romaine and rotisserie chicken in a garlicky Greek-yogurt Caesar dressing with parmesan, rolled in a tortilla.",
+      "mealType": "LUNCH",
+      "cuisine": "Italian",
+      "prepMinutes": 8,
+      "cookMinutes": 0,
+      "servings": 2,
+      "calories": 456,
+      "proteinG": 46,
+      "carbsG": 32,
+      "fatG": 16,
+      "fiberG": 5,
+      "imageKey": "wrap",
+      "accentColor": "#2FA37A",
+      "tags": [
+        "quick",
+        "tonight",
+        "no-cook",
+        "on-the-go",
+        "high-protein"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": false,
+      "fridgeDays": 0,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "whole wheat tortilla",
+          "quantity": 2,
+          "unit": "whole",
+          "aisle": "BAKERY",
+          "estPriceUsd": 0.8,
+          "note": "10-inch",
+          "pantryStaple": false
+        },
+        {
+          "name": "rotisserie chicken",
+          "quantity": 0.35,
+          "unit": "whole",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 2.8,
+          "note": "about 8 oz meat",
+          "pantryStaple": false
+        },
+        {
+          "name": "romaine heart",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 1.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "greek yogurt",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.75,
+          "note": "nonfat plain",
+          "pantryStaple": false
+        },
+        {
+          "name": "parmesan",
+          "quantity": 4,
+          "unit": "tbsp",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.8,
+          "note": "grated",
+          "pantryStaple": false
+        },
+        {
+          "name": "lemon",
+          "quantity": 0.5,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.35,
+          "pantryStaple": false
+        },
+        {
+          "name": "dijon mustard",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.08,
+          "pantryStaple": true
+        },
+        {
+          "name": "garlic",
+          "quantity": 1,
+          "unit": "clove",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.1,
+          "pantryStaple": true
+        },
+        {
+          "name": "olive oil",
+          "quantity": 0.67,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.13,
+          "pantryStaple": true
+        },
+        {
+          "name": "black pepper",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.03,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Whisk the yogurt, parmesan (save 1 tbsp), lemon juice, dijon, grated garlic, olive oil and lots of black pepper.",
+        "Chop the romaine and shred the chicken; toss both with the dressing.",
+        "Pile onto the tortillas, sprinkle with the remaining parmesan and roll tightly. Halve and eat."
+      ]
+    },
+    {
+      "id": "canned-salmon-poke-bowl",
+      "title": "Shortcut Salmon Poke Bowl",
+      "subtitle": "Sushi vibes from the pantry",
+      "description": "Flaky canned salmon over rice with cucumber, edamame, avocado and a sriracha-soy drizzle.",
+      "mealType": "LUNCH",
+      "cuisine": "Hawaiian",
+      "prepMinutes": 9,
+      "cookMinutes": 1,
+      "servings": 1,
+      "calories": 504,
+      "proteinG": 39,
+      "carbsG": 42,
+      "fatG": 20,
+      "fiberG": 7,
+      "imageKey": "poke",
+      "accentColor": "#D9668F",
+      "tags": [
+        "quick",
+        "tonight",
+        "microwave",
+        "pescatarian",
+        "spicy",
+        "high-protein"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": false,
+      "fridgeDays": 0,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "canned salmon",
+          "quantity": 1,
+          "unit": "can",
+          "aisle": "CANNED",
+          "estPriceUsd": 4.29,
+          "note": "5–6 oz, wild",
+          "pantryStaple": false
+        },
+        {
+          "name": "microwave rice pouch",
+          "quantity": 0.4,
+          "unit": "pack",
+          "aisle": "GRAINS",
+          "estPriceUsd": 0.92,
+          "pantryStaple": false
+        },
+        {
+          "name": "edamame",
+          "quantity": 0.33,
+          "unit": "cup",
+          "aisle": "FROZEN",
+          "estPriceUsd": 0.33,
+          "note": "shelled",
+          "pantryStaple": false
+        },
+        {
+          "name": "cucumber",
+          "quantity": 0.33,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.3,
+          "pantryStaple": false
+        },
+        {
+          "name": "avocado",
+          "quantity": 0.25,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.38,
+          "pantryStaple": false
+        },
+        {
+          "name": "soy sauce",
+          "quantity": 1,
+          "unit": "tbsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.1,
+          "note": "low-sodium",
+          "pantryStaple": true
+        },
+        {
+          "name": "sesame oil",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.06,
+          "pantryStaple": true
+        },
+        {
+          "name": "sriracha",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.08,
+          "pantryStaple": true
+        },
+        {
+          "name": "greek yogurt",
+          "quantity": 0.06,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.09,
+          "pantryStaple": false
+        },
+        {
+          "name": "sesame seed",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.03,
+          "pantryStaple": true
+        },
+        {
+          "name": "green onion",
+          "quantity": 0.1,
+          "unit": "bunch",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.1,
+          "pantryStaple": false
+        }
+      ],
+      "steps": [
+        "Microwave the rice pouch 90 seconds and the edamame in a splash of water for 60 seconds.",
+        "Drain the salmon, remove any large bones or skin, and flake it with the soy sauce and sesame oil.",
+        "Build the bowl: 3/4 cup rice, salmon, diced cucumber, edamame and sliced avocado.",
+        "Drizzle with sriracha mixed into a spoon of yogurt and sprinkle with sesame seeds and green onion."
+      ]
+    },
+    {
+      "id": "thai-peanut-chicken-slaw",
+      "title": "Thai Peanut Chicken Slaw",
+      "subtitle": "Crunchy, saucy, low-carb",
+      "description": "Bagged slaw, edamame and chicken tossed in a quick lime-peanut dressing with a little heat.",
+      "mealType": "LUNCH",
+      "cuisine": "Thai",
+      "prepMinutes": 10,
+      "cookMinutes": 0,
+      "servings": 3,
+      "calories": 479,
+      "proteinG": 53,
+      "carbsG": 24,
+      "fatG": 19,
+      "fiberG": 8,
+      "imageKey": "salad",
+      "accentColor": "#F29E4C",
+      "tags": [
+        "quick",
+        "tonight",
+        "no-cook",
+        "low-carb",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 3,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "coleslaw mix",
+          "quantity": 6.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 2.52,
+          "pantryStaple": false
+        },
+        {
+          "name": "rotisserie chicken",
+          "quantity": 0.6,
+          "unit": "whole",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 4.79,
+          "note": "about 15 oz meat",
+          "pantryStaple": false
+        },
+        {
+          "name": "edamame",
+          "quantity": 1.5,
+          "unit": "cup",
+          "aisle": "FROZEN",
+          "estPriceUsd": 1.5,
+          "note": "shelled",
+          "pantryStaple": false
+        },
+        {
+          "name": "peanut butter",
+          "quantity": 3,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.45,
+          "pantryStaple": false
+        },
+        {
+          "name": "soy sauce",
+          "quantity": 2,
+          "unit": "tbsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.2,
+          "note": "low-sodium",
+          "pantryStaple": true
+        },
+        {
+          "name": "lime",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.4,
+          "pantryStaple": false
+        },
+        {
+          "name": "rice vinegar",
+          "quantity": 1,
+          "unit": "tbsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.1,
+          "pantryStaple": true
+        },
+        {
+          "name": "honey",
+          "quantity": 1,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.2,
+          "pantryStaple": true
+        },
+        {
+          "name": "sriracha",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.08,
+          "pantryStaple": true
+        },
+        {
+          "name": "cilantro",
+          "quantity": 0.5,
+          "unit": "bunch",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.49,
+          "pantryStaple": false
+        }
+      ],
+      "steps": [
+        "Whisk the peanut butter, soy sauce, lime juice, rice vinegar, honey, sriracha and 1–2 tbsp warm water until smooth.",
+        "Thaw the edamame under warm running water for a minute; shred the chicken.",
+        "Toss the slaw, edamame, chicken and cilantro with the dressing.",
+        "Meal prep: store the dressing separately; the undressed salad keeps 3 days."
+      ]
+    },
+    {
+      "id": "turkey-hummus-crunch-wrap",
+      "title": "Turkey Hummus Crunch Wrap",
+      "subtitle": "Five minutes, packs anywhere",
+      "description": "Sliced turkey, hummus, spinach, crunchy cucumber and peppers with a little feta in a whole-wheat wrap.",
+      "mealType": "LUNCH",
+      "cuisine": "Mediterranean",
+      "prepMinutes": 5,
+      "cookMinutes": 0,
+      "servings": 1,
+      "calories": 447,
+      "proteinG": 37,
+      "carbsG": 41,
+      "fatG": 15,
+      "fiberG": 7,
+      "imageKey": "wrap",
+      "accentColor": "#4BA3A3",
+      "tags": [
+        "quick",
+        "tonight",
+        "no-cook",
+        "on-the-go",
+        "high-protein"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": false,
+      "fridgeDays": 0,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "whole wheat tortilla",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "BAKERY",
+          "estPriceUsd": 0.4,
+          "note": "10-inch",
+          "pantryStaple": false
+        },
+        {
+          "name": "deli turkey",
+          "quantity": 6,
+          "unit": "oz",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 4.14,
+          "note": "low-sodium",
+          "pantryStaple": false
+        },
+        {
+          "name": "hummus",
+          "quantity": 3,
+          "unit": "tbsp",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.6,
+          "pantryStaple": false
+        },
+        {
+          "name": "baby spinach",
+          "quantity": 1.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.55,
+          "pantryStaple": false
+        },
+        {
+          "name": "cucumber",
+          "quantity": 0.25,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.23,
+          "pantryStaple": false
+        },
+        {
+          "name": "bell pepper",
+          "quantity": 0.25,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.31,
+          "pantryStaple": false
+        },
+        {
+          "name": "feta",
+          "quantity": 0.5,
+          "unit": "oz",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.28,
+          "pantryStaple": false
+        }
+      ],
+      "steps": [
+        "Spread the hummus over the tortilla, leaving a 1-inch border.",
+        "Layer the spinach, turkey, cucumber and pepper strips, then crumble on the feta.",
+        "Roll tightly, tucking in the sides, and slice in half. Wrap in foil to pack."
+      ]
+    },
+    {
+      "id": "lemony-red-lentil-chicken-soup",
+      "title": "Lemony Red Lentil Chicken Soup",
+      "subtitle": "Cozy, freezer-ready",
+      "description": "Red lentils melt into a silky, cumin-scented broth with tender chicken, carrots and a big squeeze of lemon.",
+      "mealType": "LUNCH",
+      "cuisine": "Middle Eastern",
+      "prepMinutes": 10,
+      "cookMinutes": 22,
+      "servings": 4,
+      "calories": 500,
+      "proteinG": 46,
+      "carbsG": 52,
+      "fatG": 12,
+      "fiberG": 10,
+      "imageKey": "soup",
+      "accentColor": "#F6C945",
+      "tags": [
+        "comfort",
+        "freezer-friendly",
+        "one-pan",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 4,
+      "sourceName": "Meal Prepper Kitchen (original) · fridge times via FoodSafety.gov cold storage chart",
+      "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "ingredients": [
+        {
+          "name": "red lentils",
+          "quantity": 1.5,
+          "unit": "cup",
+          "aisle": "GRAINS",
+          "estPriceUsd": 1.35,
+          "note": "dry, rinsed",
+          "pantryStaple": false
+        },
+        {
+          "name": "chicken breast",
+          "quantity": 1.0,
+          "unit": "lb",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 4.49,
+          "note": "1/2-inch dice",
+          "pantryStaple": false
+        },
+        {
+          "name": "chicken broth",
+          "quantity": 5.0,
+          "unit": "cup",
+          "aisle": "CANNED",
+          "estPriceUsd": 3.0,
+          "note": "low-sodium",
+          "pantryStaple": false
+        },
+        {
+          "name": "onion",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.9,
+          "pantryStaple": false
+        },
+        {
+          "name": "carrot",
+          "quantity": 2,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.5,
+          "pantryStaple": false
+        },
+        {
+          "name": "garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.3,
+          "pantryStaple": true
+        },
+        {
+          "name": "baby spinach",
+          "quantity": 2.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 1.1,
+          "pantryStaple": false
+        },
+        {
+          "name": "lemon",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.7,
+          "pantryStaple": false
+        },
+        {
+          "name": "olive oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.4,
+          "pantryStaple": true
+        },
+        {
+          "name": "ground cumin",
+          "quantity": 2,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.16,
+          "pantryStaple": true
+        },
+        {
+          "name": "ground turmeric",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.04,
+          "pantryStaple": true
+        },
+        {
+          "name": "red pepper flakes",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Heat the oil in a large pot over medium. Cook the diced onion and carrots 4 minutes.",
+        "Stir in garlic, cumin, turmeric and red pepper flakes for 30 seconds.",
+        "Add the rinsed lentils, broth and diced chicken breast. Bring to a boil, then simmer 18 minutes until lentils collapse and chicken reaches 165°F.",
+        "Stir in the spinach and lemon juice; season with salt and pepper.",
+        "Portion into 4 containers: 4 days in the fridge or 3 months frozen."
+      ]
+    },
+    {
+      "id": "mediterranean-edamame-couscous-salad",
+      "title": "Mediterranean Edamame Couscous Salad",
+      "subtitle": "Veggie power lunch",
+      "description": "Fluffy whole-wheat couscous with edamame, chickpeas, cucumber, tomato and feta in a lemon-yogurt dressing.",
+      "mealType": "LUNCH",
+      "cuisine": "Mediterranean",
+      "prepMinutes": 15,
+      "cookMinutes": 5,
+      "servings": 4,
+      "calories": 587,
+      "proteinG": 36,
+      "carbsG": 68,
+      "fatG": 19,
+      "fiberG": 16,
+      "imageKey": "salad",
+      "accentColor": "#9BC53D",
+      "tags": [
+        "vegetarian",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 4,
+      "sourceName": "Meal Prepper Kitchen (original) · food-group balance via USDA MyPlate",
+      "sourceUrl": "https://www.myplate.gov/",
+      "ingredients": [
+        {
+          "name": "whole wheat couscous",
+          "quantity": 1.0,
+          "unit": "cup",
+          "aisle": "GRAINS",
+          "estPriceUsd": 1.1,
+          "pantryStaple": false
+        },
+        {
+          "name": "edamame",
+          "quantity": 3.0,
+          "unit": "cup",
+          "aisle": "FROZEN",
+          "estPriceUsd": 3.0,
+          "note": "shelled",
+          "pantryStaple": false
+        },
+        {
+          "name": "chickpeas",
+          "quantity": 1,
+          "unit": "can",
+          "aisle": "CANNED",
+          "estPriceUsd": 1.29,
+          "note": "rinsed",
+          "pantryStaple": false
+        },
+        {
+          "name": "feta",
+          "quantity": 4,
+          "unit": "oz",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 2.2,
+          "pantryStaple": false
+        },
+        {
+          "name": "greek yogurt",
+          "quantity": 1.0,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 1.5,
+          "note": "nonfat plain",
+          "pantryStaple": false
+        },
+        {
+          "name": "cucumber",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.9,
+          "pantryStaple": false
+        },
+        {
+          "name": "cherry tomato",
+          "quantity": 2.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 2.5,
+          "pantryStaple": false
+        },
+        {
+          "name": "red onion",
+          "quantity": 0.5,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.5,
+          "pantryStaple": false
+        },
+        {
+          "name": "lemon",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.7,
+          "pantryStaple": false
+        },
+        {
+          "name": "olive oil",
+          "quantity": 1.5,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.3,
+          "pantryStaple": true
+        },
+        {
+          "name": "dried oregano",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.08,
+          "pantryStaple": true
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Bring 1 cup water and a pinch of salt to a boil, stir in the couscous, cover, turn off the heat and let stand 5 minutes; fluff.",
+        "Run the edamame under warm water to thaw. Dice the cucumber and red onion and halve the tomatoes.",
+        "Whisk the yogurt, lemon juice, olive oil, oregano, salt and pepper.",
+        "Toss the couscous, edamame, chickpeas, vegetables and feta with the dressing.",
+        "Divide into 4 containers; keeps 4 days."
+      ]
+    },
+    {
+      "id": "dijon-egg-salad-sandwich",
+      "title": "Dijon Egg Salad Sandwich",
+      "subtitle": "Creamy without mayo",
+      "description": "Chopped hard-boiled eggs and whites in a tangy Greek-yogurt dijon dressing with green onion and paprika.",
+      "mealType": "LUNCH",
+      "cuisine": "American",
+      "prepMinutes": 5,
+      "cookMinutes": 12,
+      "servings": 2,
+      "calories": 454,
+      "proteinG": 39,
+      "carbsG": 43,
+      "fatG": 14,
+      "fiberG": 7,
+      "imageKey": "sandwich",
+      "accentColor": "#F6C945",
+      "tags": [
+        "vegetarian",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 3,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "egg",
+          "quantity": 7,
+          "unit": "whole",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 2.31,
+          "note": "3 yolks optional",
+          "pantryStaple": false
+        },
+        {
+          "name": "greek yogurt",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.75,
+          "note": "nonfat plain",
+          "pantryStaple": false
+        },
+        {
+          "name": "dijon mustard",
+          "quantity": 2,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.16,
+          "pantryStaple": true
+        },
+        {
+          "name": "green onion",
+          "quantity": 0.25,
+          "unit": "bunch",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "smoked paprika",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.03,
+          "pantryStaple": true
+        },
+        {
+          "name": "whole grain bread",
+          "quantity": 4,
+          "unit": "slice",
+          "aisle": "BAKERY",
+          "estPriceUsd": 1.2,
+          "pantryStaple": false
+        },
+        {
+          "name": "baby spinach",
+          "quantity": 1.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.55,
+          "pantryStaple": false
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Cover the eggs with water, bring to a boil, then turn off the heat, cover and let sit 10 minutes. Chill in ice water and peel. (Store-bought peeled eggs make this a 5-minute lunch.)",
+        "Chop the eggs; discard 3 of the yolks (or keep them for more richness).",
+        "Mix with the yogurt, dijon, sliced green onion, smoked paprika, salt and pepper.",
+        "Pile onto bread with spinach. The egg salad keeps 3 days."
+      ]
+    },
+    {
+      "id": "sesame-soba-chicken-salad",
+      "title": "Sesame Soba Chicken Noodles",
+      "subtitle": "Cold noodles that get better overnight",
+      "description": "Buckwheat soba tossed with chicken, edamame, cucumber and carrot in a sesame-soy dressing.",
+      "mealType": "LUNCH",
+      "cuisine": "Japanese",
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "servings": 4,
+      "calories": 521,
+      "proteinG": 45,
+      "carbsG": 56,
+      "fatG": 13,
+      "fiberG": 6,
+      "imageKey": "pasta",
+      "accentColor": "#4BA3A3",
+      "tags": [
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 4,
+      "sourceName": "Meal Prepper Kitchen (original) · fridge times via FoodSafety.gov cold storage chart",
+      "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "ingredients": [
+        {
+          "name": "soba noodle",
+          "quantity": 8,
+          "unit": "oz",
+          "aisle": "GRAINS",
+          "estPriceUsd": 3.2,
+          "pantryStaple": false
+        },
+        {
+          "name": "chicken breast",
+          "quantity": 1.25,
+          "unit": "lb",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 5.61,
+          "pantryStaple": false
+        },
+        {
+          "name": "edamame",
+          "quantity": 1.33,
+          "unit": "cup",
+          "aisle": "FROZEN",
+          "estPriceUsd": 1.33,
+          "note": "shelled",
+          "pantryStaple": false
+        },
+        {
+          "name": "cucumber",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.9,
+          "pantryStaple": false
+        },
+        {
+          "name": "carrot",
+          "quantity": 2,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.5,
+          "pantryStaple": false
+        },
+        {
+          "name": "soy sauce",
+          "quantity": 4,
+          "unit": "tbsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.4,
+          "note": "low-sodium",
+          "pantryStaple": true
+        },
+        {
+          "name": "rice vinegar",
+          "quantity": 2,
+          "unit": "tbsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.2,
+          "pantryStaple": true
+        },
+        {
+          "name": "sesame oil",
+          "quantity": 4,
+          "unit": "tsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.48,
+          "pantryStaple": true
+        },
+        {
+          "name": "honey",
+          "quantity": 1.33,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.27,
+          "pantryStaple": true
+        },
+        {
+          "name": "ginger",
+          "quantity": 1,
+          "unit": "tbsp",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.25,
+          "note": "grated or tube",
+          "pantryStaple": false
+        },
+        {
+          "name": "sriracha",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.08,
+          "pantryStaple": true
+        },
+        {
+          "name": "sesame seed",
+          "quantity": 2,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.1,
+          "pantryStaple": true
+        },
+        {
+          "name": "green onion",
+          "quantity": 0.5,
+          "unit": "bunch",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.49,
+          "pantryStaple": false
+        },
+        {
+          "name": "olive oil",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.1,
+          "pantryStaple": true
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Season the chicken with salt and pepper and cook in a lightly oiled skillet over medium-high, 5–6 minutes per side to 165°F. Rest, then slice.",
+        "Meanwhile boil the soba 4–5 minutes, adding the edamame for the last minute. Drain and rinse under cold water.",
+        "Whisk the soy sauce, rice vinegar, sesame oil, honey, grated ginger and sriracha.",
+        "Toss the noodles and edamame with matchstick cucumber and carrot, the chicken and dressing; top with sesame seeds and green onion.",
+        "Pack into 4 containers; keeps 4 days. Eat cold."
+      ]
+    },
+    {
+      "id": "open-face-tuna-melt",
+      "title": "Open-Face Tuna Melts",
+      "subtitle": "Diner classic, lighter",
+      "description": "Lemony tuna salad on toasted English muffins under bubbling cheddar, with a crisp apple on the side.",
+      "mealType": "LUNCH",
+      "cuisine": "American",
+      "prepMinutes": 5,
+      "cookMinutes": 4,
+      "servings": 1,
+      "calories": 488,
+      "proteinG": 41,
+      "carbsG": 54,
+      "fatG": 12,
+      "fiberG": 8,
+      "imageKey": "sandwich",
+      "accentColor": "#E07A2E",
+      "tags": [
+        "quick",
+        "tonight",
+        "pescatarian",
+        "high-protein"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": false,
+      "fridgeDays": 0,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "canned tuna",
+          "quantity": 1,
+          "unit": "can",
+          "aisle": "CANNED",
+          "estPriceUsd": 1.79,
+          "note": "5 oz in water, drained",
+          "pantryStaple": false
+        },
+        {
+          "name": "english muffin",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "BAKERY",
+          "estPriceUsd": 0.6,
+          "note": "whole wheat",
+          "pantryStaple": false
+        },
+        {
+          "name": "greek yogurt",
+          "quantity": 0.125,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.19,
+          "pantryStaple": false
+        },
+        {
+          "name": "dijon mustard",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.08,
+          "pantryStaple": true
+        },
+        {
+          "name": "red onion",
+          "quantity": 0.1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.1,
+          "pantryStaple": false
+        },
+        {
+          "name": "lemon",
+          "quantity": 0.25,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.17,
+          "pantryStaple": false
+        },
+        {
+          "name": "shredded cheddar",
+          "quantity": 0.25,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.44,
+          "pantryStaple": false
+        },
+        {
+          "name": "apple",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.9,
+          "pantryStaple": false
+        },
+        {
+          "name": "black pepper",
+          "quantity": 0.1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Turn on the broiler (or toaster oven). Split and toast the English muffin.",
+        "Mix the drained tuna with yogurt, dijon, finely diced red onion, lemon juice and pepper.",
+        "Spread on the muffin halves, top with cheddar and broil 2–3 minutes until melted.",
+        "Serve with the apple, sliced."
+      ]
+    },
+    {
+      "id": "chicken-pesto-pasta-salad",
+      "title": "Chicken Pesto Pasta Salad",
+      "subtitle": "Four lunches, 25 minutes",
+      "description": "Whole-wheat pasta and juicy chicken tossed with pesto, spinach, cherry tomatoes and parmesan.",
+      "mealType": "LUNCH",
+      "cuisine": "Italian",
+      "prepMinutes": 8,
+      "cookMinutes": 17,
+      "servings": 4,
+      "calories": 483,
+      "proteinG": 43,
+      "carbsG": 44,
+      "fatG": 15,
+      "fiberG": 6,
+      "imageKey": "pasta",
+      "accentColor": "#1E7A5A",
+      "tags": [
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 4,
+      "sourceName": "Meal Prepper Kitchen (original) · fridge times via FoodSafety.gov cold storage chart",
+      "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "ingredients": [
+        {
+          "name": "whole wheat pasta",
+          "quantity": 8,
+          "unit": "oz",
+          "aisle": "GRAINS",
+          "estPriceUsd": 1.04,
+          "note": "rotini or penne",
+          "pantryStaple": false
+        },
+        {
+          "name": "chicken breast",
+          "quantity": 1.25,
+          "unit": "lb",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 5.61,
+          "pantryStaple": false
+        },
+        {
+          "name": "pesto",
+          "quantity": 4,
+          "unit": "tbsp",
+          "aisle": "CANNED",
+          "estPriceUsd": 1.8,
+          "pantryStaple": false
+        },
+        {
+          "name": "baby spinach",
+          "quantity": 3.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 1.65,
+          "pantryStaple": false
+        },
+        {
+          "name": "cherry tomato",
+          "quantity": 2.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 2.5,
+          "pantryStaple": false
+        },
+        {
+          "name": "parmesan",
+          "quantity": 4,
+          "unit": "tbsp",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.8,
+          "note": "grated",
+          "pantryStaple": false
+        },
+        {
+          "name": "lemon",
+          "quantity": 0.5,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.35,
+          "pantryStaple": false
+        },
+        {
+          "name": "italian seasoning",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.08,
+          "pantryStaple": true
+        },
+        {
+          "name": "olive oil",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.1,
+          "pantryStaple": true
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Boil the pasta in salted water per the package (about 10 minutes); drain and rinse briefly.",
+        "Meanwhile, season the chicken with Italian seasoning, salt and pepper and sear in oil over medium-high, 5–6 minutes per side to 165°F. Rest 5 minutes and dice.",
+        "Toss the warm pasta with spinach so it wilts slightly, then add pesto, chicken, halved tomatoes, lemon juice and parmesan.",
+        "Divide into 4 containers; keeps 4 days. Add a splash of water or lemon before eating if it seems dry."
+      ]
+    },
+    {
+      "id": "tempeh-banh-mi-bowl",
+      "title": "Tempeh Banh Mi Bowl",
+      "subtitle": "Sweet, salty, pickled crunch",
+      "description": "Glazed tempeh over rice with quick-pickled carrot and cucumber, jalapeño, cilantro and sriracha yogurt.",
+      "mealType": "LUNCH",
+      "cuisine": "Vietnamese",
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "servings": 2,
+      "calories": 450,
+      "proteinG": 30,
+      "carbsG": 51,
+      "fatG": 14,
+      "fiberG": 7,
+      "imageKey": "bowl_grain",
+      "accentColor": "#9BC53D",
+      "tags": [
+        "vegetarian",
+        "spicy",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 3,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "tempeh",
+          "quantity": 1,
+          "unit": "pack",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 3.49,
+          "note": "8 oz",
+          "pantryStaple": false
+        },
+        {
+          "name": "microwave rice pouch",
+          "quantity": 0.75,
+          "unit": "pack",
+          "aisle": "GRAINS",
+          "estPriceUsd": 1.72,
+          "pantryStaple": false
+        },
+        {
+          "name": "carrot",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "cucumber",
+          "quantity": 0.5,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.45,
+          "pantryStaple": false
+        },
+        {
+          "name": "rice vinegar",
+          "quantity": 2,
+          "unit": "tbsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.2,
+          "pantryStaple": true
+        },
+        {
+          "name": "soy sauce",
+          "quantity": 1.5,
+          "unit": "tbsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.15,
+          "note": "low-sodium",
+          "pantryStaple": true
+        },
+        {
+          "name": "honey",
+          "quantity": 0.67,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.13,
+          "pantryStaple": true
+        },
+        {
+          "name": "garlic",
+          "quantity": 1,
+          "unit": "clove",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.1,
+          "pantryStaple": true
+        },
+        {
+          "name": "olive oil",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.1,
+          "pantryStaple": true
+        },
+        {
+          "name": "jalapeno",
+          "quantity": 0.5,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.1,
+          "pantryStaple": false
+        },
+        {
+          "name": "cilantro",
+          "quantity": 0.25,
+          "unit": "bunch",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "greek yogurt",
+          "quantity": 0.33,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.49,
+          "pantryStaple": false
+        },
+        {
+          "name": "sriracha",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.08,
+          "pantryStaple": true
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Toss the matchstick carrot and sliced cucumber with rice vinegar and a pinch of salt; set aside to quick-pickle.",
+        "Slice the tempeh into thin strips. Whisk the soy sauce, honey and garlic.",
+        "Cook the tempeh in a little oil over medium-high 3 minutes per side, then add the sauce and toss until glossy, 1 minute.",
+        "Microwave the rice pouch. Build bowls with rice, tempeh, drained pickles, jalapeño slices and cilantro.",
+        "Stir the sriracha into the yogurt and drizzle over. Keeps 3 days (herbs on the side)."
+      ]
+    },
+    {
+      "id": "sheet-pan-chicken-fajitas",
+      "title": "Sheet-Pan Chicken Fajitas",
+      "subtitle": "One pan, four dinners",
+      "description": "Smoky spiced chicken strips roasted with peppers and onion, tucked into warm corn tortillas.",
+      "mealType": "DINNER",
+      "cuisine": "Mexican",
+      "prepMinutes": 8,
+      "cookMinutes": 18,
+      "servings": 4,
+      "calories": 490,
+      "proteinG": 46,
+      "carbsG": 45,
+      "fatG": 14,
+      "fiberG": 7,
+      "imageKey": "sheet_pan",
+      "accentColor": "#E5533D",
+      "tags": [
+        "sheet-pan",
+        "one-pan",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 4,
+      "sourceName": "Meal Prepper Kitchen (original) · fridge times via FoodSafety.gov cold storage chart",
+      "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "ingredients": [
+        {
+          "name": "chicken breast",
+          "quantity": 1.5,
+          "unit": "lb",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 6.74,
+          "pantryStaple": false
+        },
+        {
+          "name": "bell pepper",
+          "quantity": 3,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 3.75,
+          "note": "mixed colors",
+          "pantryStaple": false
+        },
+        {
+          "name": "onion",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.9,
+          "pantryStaple": false
+        },
+        {
+          "name": "olive oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.4,
+          "pantryStaple": true
+        },
+        {
+          "name": "chili powder",
+          "quantity": 2,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.16,
+          "pantryStaple": true
+        },
+        {
+          "name": "ground cumin",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.08,
+          "pantryStaple": true
+        },
+        {
+          "name": "smoked paprika",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.1,
+          "pantryStaple": true
+        },
+        {
+          "name": "garlic powder",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.06,
+          "pantryStaple": true
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "lime",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.4,
+          "pantryStaple": false
+        },
+        {
+          "name": "corn tortilla",
+          "quantity": 12,
+          "unit": "whole",
+          "aisle": "BAKERY",
+          "estPriceUsd": 1.44,
+          "pantryStaple": false
+        },
+        {
+          "name": "salsa",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "CANNED",
+          "estPriceUsd": 0.88,
+          "pantryStaple": false
+        },
+        {
+          "name": "greek yogurt",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.75,
+          "note": "nonfat plain, sour-cream swap",
+          "pantryStaple": false
+        }
+      ],
+      "steps": [
+        "Heat oven to 425°F. Slice the chicken, peppers and onion into thin strips.",
+        "Toss everything on a sheet pan with oil, chili powder, cumin, smoked paprika, garlic powder and salt.",
+        "Spread in a single layer and roast 16–18 minutes until the chicken reaches 165°F; broil 2 minutes for char.",
+        "Squeeze lime over the pan. Serve in warmed tortillas with salsa and a dollop of Greek yogurt.",
+        "Store the filling in 4 containers (4 days); warm tortillas fresh."
+      ]
+    },
+    {
+      "id": "chili-lime-shrimp-tacos",
+      "title": "Chili-Lime Shrimp Tacos",
+      "subtitle": "Frozen shrimp to tacos in 10",
+      "description": "Garlicky chili-lime shrimp on charred corn tortillas with lime-yogurt slaw and avocado.",
+      "mealType": "DINNER",
+      "cuisine": "Mexican",
+      "prepMinutes": 6,
+      "cookMinutes": 4,
+      "servings": 2,
+      "calories": 478,
+      "proteinG": 46,
+      "carbsG": 42,
+      "fatG": 14,
+      "fiberG": 8,
+      "imageKey": "tacos",
+      "accentColor": "#F29E4C",
+      "tags": [
+        "quick",
+        "tonight",
+        "one-pan",
+        "pescatarian",
+        "high-protein"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": false,
+      "fridgeDays": 0,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "shrimp",
+          "quantity": 0.85,
+          "unit": "lb",
+          "aisle": "FROZEN",
+          "estPriceUsd": 8.49,
+          "note": "frozen, peeled & deveined",
+          "pantryStaple": false
+        },
+        {
+          "name": "corn tortilla",
+          "quantity": 6,
+          "unit": "whole",
+          "aisle": "BAKERY",
+          "estPriceUsd": 0.72,
+          "pantryStaple": false
+        },
+        {
+          "name": "coleslaw mix",
+          "quantity": 2.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.84,
+          "pantryStaple": false
+        },
+        {
+          "name": "greek yogurt",
+          "quantity": 0.33,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.49,
+          "pantryStaple": false
+        },
+        {
+          "name": "lime",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.4,
+          "pantryStaple": false
+        },
+        {
+          "name": "avocado",
+          "quantity": 0.5,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.75,
+          "pantryStaple": false
+        },
+        {
+          "name": "salsa",
+          "quantity": 0.25,
+          "unit": "cup",
+          "aisle": "CANNED",
+          "estPriceUsd": 0.44,
+          "pantryStaple": false
+        },
+        {
+          "name": "olive oil",
+          "quantity": 0.67,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.13,
+          "pantryStaple": true
+        },
+        {
+          "name": "chili powder",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.08,
+          "pantryStaple": true
+        },
+        {
+          "name": "garlic powder",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.03,
+          "pantryStaple": true
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Put the frozen shrimp in a colander under cold running water for 4–5 minutes to thaw; pat dry.",
+        "Meanwhile stir the yogurt with half the lime juice and a pinch of salt, then toss with the slaw.",
+        "Heat the oil in a skillet over medium-high. Add shrimp, chili powder, garlic powder and salt; cook 2–3 minutes until pink (1 minute if precooked). Squeeze over the rest of the lime.",
+        "Char the tortillas directly over a gas flame or in a dry skillet, 15 seconds a side.",
+        "Fill with slaw, shrimp, avocado and salsa."
+      ]
+    },
+    {
+      "id": "honey-soy-glazed-salmon",
+      "title": "Honey-Soy Glazed Salmon",
+      "subtitle": "Air fryer, 10 minutes of cooking",
+      "description": "Sticky honey-soy-garlic salmon with rice and steamed broccoli — a crowd-pleasing omega-3 dinner.",
+      "mealType": "DINNER",
+      "cuisine": "Japanese",
+      "prepMinutes": 8,
+      "cookMinutes": 10,
+      "servings": 2,
+      "calories": 487,
+      "proteinG": 39,
+      "carbsG": 49,
+      "fatG": 15,
+      "fiberG": 5,
+      "imageKey": "salmon",
+      "accentColor": "#F29E4C",
+      "tags": [
+        "air-fryer",
+        "pescatarian",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 3,
+      "sourceName": "Meal Prepper Kitchen (original) · fridge times via FoodSafety.gov cold storage chart",
+      "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "ingredients": [
+        {
+          "name": "salmon fillet",
+          "quantity": 0.65,
+          "unit": "lb",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 7.79,
+          "note": "two 5 oz portions",
+          "pantryStaple": false
+        },
+        {
+          "name": "soy sauce",
+          "quantity": 2,
+          "unit": "tbsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.2,
+          "note": "low-sodium",
+          "pantryStaple": true
+        },
+        {
+          "name": "honey",
+          "quantity": 1,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.2,
+          "pantryStaple": true
+        },
+        {
+          "name": "garlic",
+          "quantity": 2,
+          "unit": "clove",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.2,
+          "pantryStaple": true
+        },
+        {
+          "name": "ginger",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.12,
+          "pantryStaple": false
+        },
+        {
+          "name": "sesame oil",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.12,
+          "pantryStaple": true
+        },
+        {
+          "name": "microwave rice pouch",
+          "quantity": 0.75,
+          "unit": "pack",
+          "aisle": "GRAINS",
+          "estPriceUsd": 1.72,
+          "pantryStaple": false
+        },
+        {
+          "name": "steam-in-bag broccoli",
+          "quantity": 1,
+          "unit": "pack",
+          "aisle": "FROZEN",
+          "estPriceUsd": 2.29,
+          "pantryStaple": false
+        },
+        {
+          "name": "sesame seed",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.05,
+          "pantryStaple": true
+        },
+        {
+          "name": "green onion",
+          "quantity": 0.15,
+          "unit": "bunch",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.15,
+          "pantryStaple": false
+        }
+      ],
+      "steps": [
+        "Whisk the soy sauce, honey, grated garlic, ginger and sesame oil.",
+        "Pat the salmon dry, set skin-side down in the air fryer basket and brush with half the glaze.",
+        "Air fry at 400°F for 8–10 minutes until it flakes (145°F), brushing with the remaining glaze halfway. (Oven: 425°F for 12 minutes.)",
+        "Meanwhile microwave the rice pouch and the steam-in-bag broccoli per package.",
+        "Plate and sprinkle with sesame seeds and green onion. Leftover salmon keeps 3 days."
+      ]
+    },
+    {
+      "id": "korean-beef-bulgogi-bowl",
+      "title": "Korean Ground Beef Bulgogi Bowl",
+      "subtitle": "15-minute sweet-spicy beef",
+      "description": "Lean ground beef in a gochujang, soy and sesame glaze over rice with crunchy cucumber and kimchi.",
+      "mealType": "DINNER",
+      "cuisine": "Korean",
+      "prepMinutes": 5,
+      "cookMinutes": 10,
+      "servings": 4,
+      "calories": 496,
+      "proteinG": 40,
+      "carbsG": 48,
+      "fatG": 16,
+      "fiberG": 4,
+      "imageKey": "bowl_grain",
+      "accentColor": "#E5533D",
+      "tags": [
+        "quick",
+        "one-pan",
+        "spicy",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 4,
+      "sourceName": "Meal Prepper Kitchen (original) · fridge times via FoodSafety.gov cold storage chart",
+      "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "ingredients": [
+        {
+          "name": "lean ground beef",
+          "quantity": 1.5,
+          "unit": "lb",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 10.48,
+          "note": "93% lean",
+          "pantryStaple": false
+        },
+        {
+          "name": "soy sauce",
+          "quantity": 3,
+          "unit": "tbsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.3,
+          "note": "low-sodium",
+          "pantryStaple": true
+        },
+        {
+          "name": "honey",
+          "quantity": 2,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.4,
+          "pantryStaple": true
+        },
+        {
+          "name": "gochujang",
+          "quantity": 2,
+          "unit": "tbsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.7,
+          "pantryStaple": false
+        },
+        {
+          "name": "sesame oil",
+          "quantity": 2,
+          "unit": "tsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.24,
+          "pantryStaple": true
+        },
+        {
+          "name": "garlic",
+          "quantity": 4,
+          "unit": "clove",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.4,
+          "pantryStaple": true
+        },
+        {
+          "name": "ginger",
+          "quantity": 1,
+          "unit": "tbsp",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "green onion",
+          "quantity": 0.5,
+          "unit": "bunch",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.49,
+          "pantryStaple": false
+        },
+        {
+          "name": "microwave rice pouch",
+          "quantity": 1.5,
+          "unit": "pack",
+          "aisle": "GRAINS",
+          "estPriceUsd": 3.44,
+          "pantryStaple": false
+        },
+        {
+          "name": "cucumber",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.9,
+          "pantryStaple": false
+        },
+        {
+          "name": "kimchi",
+          "quantity": 1.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 2.0,
+          "pantryStaple": false
+        },
+        {
+          "name": "sesame seed",
+          "quantity": 2,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.1,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Whisk the soy sauce, honey, gochujang, sesame oil, garlic and ginger.",
+        "Brown the beef in a large skillet over medium-high, breaking it up, 6–7 minutes; drain any fat.",
+        "Pour in the sauce and simmer 2 minutes until glossy. Stir in half the green onion.",
+        "Microwave the rice pouches. Serve the beef over 3/4 cup rice with sliced cucumber, kimchi, sesame seeds and remaining green onion.",
+        "Packs into 4 containers for 4 days (cucumber and kimchi on the side)."
+      ]
+    },
+    {
+      "id": "turkey-black-bean-chili",
+      "title": "Smoky Turkey Black Bean Chili",
+      "subtitle": "Big pot, freezes beautifully",
+      "description": "Hearty turkey chili with black beans, tomatoes, peppers and smoky spices; top with Greek yogurt.",
+      "mealType": "DINNER",
+      "cuisine": "American",
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "servings": 4,
+      "calories": 499,
+      "proteinG": 46,
+      "carbsG": 45,
+      "fatG": 15,
+      "fiberG": 15,
+      "imageKey": "chili",
+      "accentColor": "#E5533D",
+      "tags": [
+        "comfort",
+        "freezer-friendly",
+        "one-pan",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 4,
+      "sourceName": "Meal Prepper Kitchen (original) · fridge times via FoodSafety.gov cold storage chart",
+      "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "ingredients": [
+        {
+          "name": "ground turkey",
+          "quantity": 1.5,
+          "unit": "lb",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 8.23,
+          "note": "93% lean",
+          "pantryStaple": false
+        },
+        {
+          "name": "black beans",
+          "quantity": 2,
+          "unit": "can",
+          "aisle": "CANNED",
+          "estPriceUsd": 2.18,
+          "note": "rinsed",
+          "pantryStaple": false
+        },
+        {
+          "name": "canned diced tomato",
+          "quantity": 2,
+          "unit": "can",
+          "aisle": "CANNED",
+          "estPriceUsd": 2.58,
+          "note": "fire-roasted",
+          "pantryStaple": false
+        },
+        {
+          "name": "onion",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.9,
+          "pantryStaple": false
+        },
+        {
+          "name": "bell pepper",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 1.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.3,
+          "pantryStaple": true
+        },
+        {
+          "name": "chicken broth",
+          "quantity": 1.0,
+          "unit": "cup",
+          "aisle": "CANNED",
+          "estPriceUsd": 0.6,
+          "note": "low-sodium",
+          "pantryStaple": false
+        },
+        {
+          "name": "chili powder",
+          "quantity": 3,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.24,
+          "pantryStaple": true
+        },
+        {
+          "name": "ground cumin",
+          "quantity": 2,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.16,
+          "pantryStaple": true
+        },
+        {
+          "name": "smoked paprika",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.1,
+          "pantryStaple": true
+        },
+        {
+          "name": "dried oregano",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.08,
+          "pantryStaple": true
+        },
+        {
+          "name": "olive oil",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.1,
+          "pantryStaple": true
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "lime",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.4,
+          "pantryStaple": false
+        },
+        {
+          "name": "greek yogurt",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.75,
+          "pantryStaple": false
+        },
+        {
+          "name": "cilantro",
+          "quantity": 0.25,
+          "unit": "bunch",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.25,
+          "pantryStaple": false
+        }
+      ],
+      "steps": [
+        "Heat the oil in a Dutch oven over medium-high. Cook the diced onion and pepper 4 minutes.",
+        "Add the turkey and cook, breaking it up, until no longer pink, 5–6 minutes.",
+        "Stir in garlic, chili powder, cumin, smoked paprika and oregano for 30 seconds.",
+        "Add the tomatoes, rinsed beans and broth. Simmer uncovered 15–20 minutes until thick. Season with salt and lime.",
+        "Top with yogurt and cilantro. Keeps 4 days or freeze 3 months."
+      ]
+    },
+    {
+      "id": "thai-red-curry-chicken",
+      "title": "Thai Red Curry Chicken",
+      "subtitle": "Fragrant, lighter coconut curry",
+      "description": "Tender chicken simmered in red curry and light coconut milk with peppers and spinach over rice.",
+      "mealType": "DINNER",
+      "cuisine": "Thai",
+      "prepMinutes": 8,
+      "cookMinutes": 17,
+      "servings": 4,
+      "calories": 465,
+      "proteinG": 44,
+      "carbsG": 43,
+      "fatG": 13,
+      "fiberG": 4,
+      "imageKey": "curry",
+      "accentColor": "#E5533D",
+      "tags": [
+        "spicy",
+        "freezer-friendly",
+        "one-pan",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 4,
+      "sourceName": "Meal Prepper Kitchen (original) · fridge times via FoodSafety.gov cold storage chart",
+      "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "ingredients": [
+        {
+          "name": "chicken breast",
+          "quantity": 1.5,
+          "unit": "lb",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 6.74,
+          "pantryStaple": false
+        },
+        {
+          "name": "light coconut milk",
+          "quantity": 1,
+          "unit": "can",
+          "aisle": "CANNED",
+          "estPriceUsd": 2.29,
+          "note": "13.5 oz",
+          "pantryStaple": false
+        },
+        {
+          "name": "red curry paste",
+          "quantity": 2,
+          "unit": "tbsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.8,
+          "pantryStaple": false
+        },
+        {
+          "name": "bell pepper",
+          "quantity": 2,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 2.5,
+          "pantryStaple": false
+        },
+        {
+          "name": "baby spinach",
+          "quantity": 2.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 1.1,
+          "pantryStaple": false
+        },
+        {
+          "name": "garlic",
+          "quantity": 2,
+          "unit": "clove",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.2,
+          "pantryStaple": true
+        },
+        {
+          "name": "ginger",
+          "quantity": 1,
+          "unit": "tbsp",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "fish sauce",
+          "quantity": 2,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.16,
+          "pantryStaple": true
+        },
+        {
+          "name": "lime",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.4,
+          "pantryStaple": false
+        },
+        {
+          "name": "olive oil",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.1,
+          "pantryStaple": true
+        },
+        {
+          "name": "microwave rice pouch",
+          "quantity": 1.5,
+          "unit": "pack",
+          "aisle": "GRAINS",
+          "estPriceUsd": 3.44,
+          "note": "jasmine",
+          "pantryStaple": false
+        },
+        {
+          "name": "cilantro",
+          "quantity": 0.25,
+          "unit": "bunch",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.25,
+          "pantryStaple": false
+        }
+      ],
+      "steps": [
+        "Heat the oil in a large skillet over medium-high. Cook bite-size chicken pieces 5 minutes until browned.",
+        "Add the sliced peppers, garlic, ginger and curry paste; stir 1 minute until fragrant.",
+        "Pour in the coconut milk and fish sauce; simmer 8–10 minutes until the chicken is cooked through and the sauce thickens.",
+        "Stir in the spinach and lime juice. Serve over rice with cilantro.",
+        "Curry keeps 4 days in the fridge or 3 months frozen (store rice separately)."
+      ]
+    },
+    {
+      "id": "weeknight-chicken-tikka-masala",
+      "title": "Weeknight Chicken Tikka Masala",
+      "subtitle": "Takeout flavor, lighter sauce",
+      "description": "Spiced chicken in a creamy tomato-yogurt masala sauce with peas, served over rice.",
+      "mealType": "DINNER",
+      "cuisine": "Indian",
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "servings": 4,
+      "calories": 478,
+      "proteinG": 50,
+      "carbsG": 47,
+      "fatG": 10,
+      "fiberG": 5,
+      "imageKey": "curry",
+      "accentColor": "#E07A2E",
+      "tags": [
+        "comfort",
+        "freezer-friendly",
+        "one-pan",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 4,
+      "sourceName": "Meal Prepper Kitchen (original) · fridge times via FoodSafety.gov cold storage chart",
+      "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "ingredients": [
+        {
+          "name": "chicken breast",
+          "quantity": 1.5,
+          "unit": "lb",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 6.74,
+          "pantryStaple": false
+        },
+        {
+          "name": "canned diced tomato",
+          "quantity": 1,
+          "unit": "can",
+          "aisle": "CANNED",
+          "estPriceUsd": 1.29,
+          "pantryStaple": false
+        },
+        {
+          "name": "greek yogurt",
+          "quantity": 0.75,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 1.12,
+          "note": "nonfat plain",
+          "pantryStaple": false
+        },
+        {
+          "name": "onion",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.9,
+          "pantryStaple": false
+        },
+        {
+          "name": "garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.3,
+          "pantryStaple": true
+        },
+        {
+          "name": "ginger",
+          "quantity": 1,
+          "unit": "tbsp",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "garam masala",
+          "quantity": 2,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.24,
+          "pantryStaple": true
+        },
+        {
+          "name": "ground cumin",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.08,
+          "pantryStaple": true
+        },
+        {
+          "name": "ground turmeric",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.04,
+          "pantryStaple": true
+        },
+        {
+          "name": "olive oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.2,
+          "pantryStaple": true
+        },
+        {
+          "name": "frozen peas",
+          "quantity": 1.0,
+          "unit": "cup",
+          "aisle": "FROZEN",
+          "estPriceUsd": 0.5,
+          "pantryStaple": false
+        },
+        {
+          "name": "microwave rice pouch",
+          "quantity": 1.5,
+          "unit": "pack",
+          "aisle": "GRAINS",
+          "estPriceUsd": 3.44,
+          "note": "basmati or brown",
+          "pantryStaple": false
+        },
+        {
+          "name": "cilantro",
+          "quantity": 0.25,
+          "unit": "bunch",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Toss the chicken pieces with 2 tbsp yogurt, 1 tsp garam masala and salt.",
+        "Heat the oil in a large skillet over medium-high; brown the chicken 5 minutes and set aside.",
+        "Lower to medium; cook the diced onion 4 minutes, then the garlic, ginger, remaining garam masala, cumin and turmeric for 1 minute.",
+        "Add the tomatoes and simmer 6 minutes. Return the chicken and peas; simmer 4 minutes until cooked through.",
+        "Off the heat, stir in the remaining yogurt. Serve over rice with cilantro. Keeps 4 days; freezes well without rice."
+      ]
+    },
+    {
+      "id": "lemon-garlic-shrimp-pasta",
+      "title": "Lemon Garlic Shrimp Pasta",
+      "subtitle": "Scampi vibes, 50 g protein",
+      "description": "High-protein chickpea pasta with garlicky shrimp, spinach, lemon and parmesan.",
+      "mealType": "DINNER",
+      "cuisine": "Italian",
+      "prepMinutes": 3,
+      "cookMinutes": 12,
+      "servings": 2,
+      "calories": 533,
+      "proteinG": 51,
+      "carbsG": 35,
+      "fatG": 21,
+      "fiberG": 7,
+      "imageKey": "shrimp",
+      "accentColor": "#F6C945",
+      "tags": [
+        "quick",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 3,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "shrimp",
+          "quantity": 0.85,
+          "unit": "lb",
+          "aisle": "FROZEN",
+          "estPriceUsd": 8.49,
+          "note": "frozen raw, thawed",
+          "pantryStaple": false
+        },
+        {
+          "name": "chickpea pasta",
+          "quantity": 4,
+          "unit": "oz",
+          "aisle": "GRAINS",
+          "estPriceUsd": 1.2,
+          "pantryStaple": false
+        },
+        {
+          "name": "baby spinach",
+          "quantity": 4.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 2.2,
+          "pantryStaple": false
+        },
+        {
+          "name": "olive oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.4,
+          "pantryStaple": true
+        },
+        {
+          "name": "garlic",
+          "quantity": 4,
+          "unit": "clove",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.4,
+          "pantryStaple": true
+        },
+        {
+          "name": "red pepper flakes",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "lemon",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.7,
+          "pantryStaple": false
+        },
+        {
+          "name": "parmesan",
+          "quantity": 2,
+          "unit": "tbsp",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.4,
+          "note": "grated",
+          "pantryStaple": false
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Boil the pasta in salted water per the package (7–8 minutes). Save 1/2 cup pasta water; drain.",
+        "Meanwhile heat the oil in a skillet over medium. Cook the sliced garlic and red pepper flakes 1 minute.",
+        "Add the thawed shrimp, salt and pepper; cook 2–3 minutes until pink.",
+        "Add pasta, spinach, lemon zest and juice, and a splash of pasta water; toss until the spinach wilts.",
+        "Top with parmesan. Leftovers keep 3 days."
+      ]
+    },
+    {
+      "id": "greek-turkey-feta-burgers",
+      "title": "Greek Turkey Feta Burgers",
+      "subtitle": "Juicy, herby, with sweet potato fries",
+      "description": "Turkey patties mixed with feta, spinach and oregano, topped with tzatziki, plus air-fryer sweet potato wedges.",
+      "mealType": "DINNER",
+      "cuisine": "Greek",
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "servings": 4,
+      "calories": 518,
+      "proteinG": 39,
+      "carbsG": 41,
+      "fatG": 22,
+      "fiberG": 6,
+      "imageKey": "burger",
+      "accentColor": "#3E8ED0",
+      "tags": [
+        "air-fryer",
+        "grill",
+        "freezer-friendly",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 3,
+      "sourceName": "Meal Prepper Kitchen (original) · fridge times via FoodSafety.gov cold storage chart",
+      "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "ingredients": [
+        {
+          "name": "ground turkey",
+          "quantity": 1.25,
+          "unit": "lb",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 6.86,
+          "note": "93% lean",
+          "pantryStaple": false
+        },
+        {
+          "name": "feta",
+          "quantity": 2,
+          "unit": "oz",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 1.1,
+          "pantryStaple": false
+        },
+        {
+          "name": "baby spinach",
+          "quantity": 1.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.55,
+          "pantryStaple": false
+        },
+        {
+          "name": "dried oregano",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.08,
+          "pantryStaple": true
+        },
+        {
+          "name": "garlic powder",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.03,
+          "pantryStaple": true
+        },
+        {
+          "name": "whole wheat bun",
+          "quantity": 4,
+          "unit": "whole",
+          "aisle": "BAKERY",
+          "estPriceUsd": 2.6,
+          "pantryStaple": false
+        },
+        {
+          "name": "greek yogurt",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.75,
+          "pantryStaple": false
+        },
+        {
+          "name": "cucumber",
+          "quantity": 0.33,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.3,
+          "pantryStaple": false
+        },
+        {
+          "name": "cherry tomato",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.62,
+          "pantryStaple": false
+        },
+        {
+          "name": "red onion",
+          "quantity": 0.25,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "sweet potato",
+          "quantity": 2,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 2.4,
+          "pantryStaple": false
+        },
+        {
+          "name": "olive oil",
+          "quantity": 1.33,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.27,
+          "pantryStaple": true
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Cut the sweet potatoes into wedges, toss with the oil and salt, and air fry at 400°F for 15 minutes, shaking halfway.",
+        "Mix the turkey, finely chopped spinach, feta, oregano, garlic powder and pepper; form 4 patties.",
+        "Cook in a skillet or on a grill over medium-high, 4–5 minutes per side to 165°F.",
+        "Stir grated cucumber into the yogurt with a pinch of salt for quick tzatziki.",
+        "Serve on buns with tzatziki, tomato and red onion. Cooked patties keep 3 days; raw patties freeze 3 months."
+      ]
+    },
+    {
+      "id": "sheet-pan-lemon-cod-potatoes",
+      "title": "Sheet-Pan Lemon Cod & Potatoes",
+      "subtitle": "Light, bright, mostly hands-off",
+      "description": "Flaky cod roasted with garlicky baby potatoes and green beans, finished with lemon and a quick lemon-yogurt sauce.",
+      "mealType": "DINNER",
+      "cuisine": "Mediterranean",
+      "prepMinutes": 10,
+      "cookMinutes": 22,
+      "servings": 2,
+      "calories": 451,
+      "proteinG": 40,
+      "carbsG": 39,
+      "fatG": 15,
+      "fiberG": 6,
+      "imageKey": "sheet_pan",
+      "accentColor": "#4BA3A3",
+      "tags": [
+        "sheet-pan",
+        "one-pan",
+        "pescatarian",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 3,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "cod fillet",
+          "quantity": 0.75,
+          "unit": "lb",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 7.12,
+          "note": "two 6 oz fillets",
+          "pantryStaple": false
+        },
+        {
+          "name": "baby potato",
+          "quantity": 0.75,
+          "unit": "lb",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 1.5,
+          "pantryStaple": false
+        },
+        {
+          "name": "green beans",
+          "quantity": 0.5,
+          "unit": "lb",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 1.25,
+          "note": "trimmed",
+          "pantryStaple": false
+        },
+        {
+          "name": "olive oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.4,
+          "pantryStaple": true
+        },
+        {
+          "name": "garlic",
+          "quantity": 2,
+          "unit": "clove",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.2,
+          "pantryStaple": true
+        },
+        {
+          "name": "smoked paprika",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.05,
+          "pantryStaple": true
+        },
+        {
+          "name": "lemon",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.7,
+          "pantryStaple": false
+        },
+        {
+          "name": "greek yogurt",
+          "quantity": 0.25,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.38,
+          "pantryStaple": false
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Heat oven to 425°F. Halve the potatoes, toss with half the oil, salt and pepper, and roast 12 minutes.",
+        "Push potatoes aside; add the green beans and cod. Drizzle with the rest of the oil and season with garlic, smoked paprika, salt and lemon zest.",
+        "Roast 10 minutes more until the cod flakes easily (145°F).",
+        "Squeeze lemon over everything and serve with yogurt mixed with a little lemon juice. Leftovers keep 3 days."
+      ]
+    },
+    {
+      "id": "sirloin-herb-sauce-sweet-potato",
+      "title": "Grilled Sirloin with Herb Sauce",
+      "subtitle": "Steak night, 25 minutes",
+      "description": "Seared sirloin with a punchy cilantro-garlic-lime sauce, microwave sweet potatoes and broccoli.",
+      "mealType": "DINNER",
+      "cuisine": "Argentinian",
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "servings": 4,
+      "calories": 465,
+      "proteinG": 43,
+      "carbsG": 35,
+      "fatG": 17,
+      "fiberG": 8,
+      "imageKey": "steak",
+      "accentColor": "#8A6B4E",
+      "tags": [
+        "grill",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 4,
+      "sourceName": "Meal Prepper Kitchen (original) · fridge times via FoodSafety.gov cold storage chart",
+      "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "ingredients": [
+        {
+          "name": "sirloin steak",
+          "quantity": 1.5,
+          "unit": "lb",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 16.48,
+          "note": "top sirloin, trimmed",
+          "pantryStaple": false
+        },
+        {
+          "name": "sweet potato",
+          "quantity": 4,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 4.8,
+          "note": "medium",
+          "pantryStaple": false
+        },
+        {
+          "name": "broccoli",
+          "quantity": 1.25,
+          "unit": "lb",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 3.11,
+          "pantryStaple": false
+        },
+        {
+          "name": "cilantro",
+          "quantity": 1,
+          "unit": "bunch",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.99,
+          "pantryStaple": false
+        },
+        {
+          "name": "garlic",
+          "quantity": 2,
+          "unit": "clove",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.2,
+          "pantryStaple": true
+        },
+        {
+          "name": "lime",
+          "quantity": 2,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.8,
+          "pantryStaple": false
+        },
+        {
+          "name": "olive oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.4,
+          "pantryStaple": true
+        },
+        {
+          "name": "red pepper flakes",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "black pepper",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.03,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Season the steak with salt and pepper and let it sit while you prep.",
+        "Pierce the sweet potatoes and microwave 8–10 minutes, turning once, until tender. Steam the broccoli 4 minutes (or microwave covered with a splash of water).",
+        "Grill or sear the steak over high heat 4–5 minutes per side for medium (135°F). Rest 5 minutes and slice against the grain.",
+        "Blitz or finely chop the cilantro, garlic, lime juice, olive oil, red pepper flakes and salt for the sauce.",
+        "Spoon sauce over the steak. Sliced steak keeps 4 days; store the sauce separately."
+      ]
+    },
+    {
+      "id": "teriyaki-tofu-stir-fry",
+      "title": "Crispy Teriyaki Tofu Stir-Fry",
+      "subtitle": "Plant protein that actually satisfies",
+      "description": "Golden pan-crisped tofu and veggies in a quick honey-soy-ginger sauce with edamame over rice.",
+      "mealType": "DINNER",
+      "cuisine": "Japanese",
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "servings": 2,
+      "calories": 542,
+      "proteinG": 33,
+      "carbsG": 62,
+      "fatG": 18,
+      "fiberG": 8,
+      "imageKey": "tofu",
+      "accentColor": "#6D5BD0",
+      "tags": [
+        "vegetarian",
+        "one-pan",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 4,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "extra-firm tofu",
+          "quantity": 1,
+          "unit": "pack",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 2.49,
+          "note": "14 oz block",
+          "pantryStaple": false
+        },
+        {
+          "name": "frozen stir-fry vegetables",
+          "quantity": 3.0,
+          "unit": "cup",
+          "aisle": "FROZEN",
+          "estPriceUsd": 1.5,
+          "pantryStaple": false
+        },
+        {
+          "name": "edamame",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "FROZEN",
+          "estPriceUsd": 0.5,
+          "note": "shelled",
+          "pantryStaple": false
+        },
+        {
+          "name": "soy sauce",
+          "quantity": 2,
+          "unit": "tbsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.2,
+          "note": "low-sodium",
+          "pantryStaple": true
+        },
+        {
+          "name": "honey",
+          "quantity": 1,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.2,
+          "pantryStaple": true
+        },
+        {
+          "name": "garlic",
+          "quantity": 2,
+          "unit": "clove",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.2,
+          "pantryStaple": true
+        },
+        {
+          "name": "ginger",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.12,
+          "pantryStaple": false
+        },
+        {
+          "name": "cornstarch",
+          "quantity": 2,
+          "unit": "tsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.06,
+          "pantryStaple": true
+        },
+        {
+          "name": "olive oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.2,
+          "pantryStaple": true
+        },
+        {
+          "name": "sesame oil",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.12,
+          "pantryStaple": true
+        },
+        {
+          "name": "microwave rice pouch",
+          "quantity": 0.75,
+          "unit": "pack",
+          "aisle": "GRAINS",
+          "estPriceUsd": 1.72,
+          "pantryStaple": false
+        },
+        {
+          "name": "sesame seed",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.05,
+          "pantryStaple": true
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Press the tofu between towels for 5 minutes, then cube and toss with 1 tsp cornstarch and a pinch of salt.",
+        "Heat oil in a large nonstick skillet over medium-high; cook the tofu 7–8 minutes, turning, until golden. Set aside.",
+        "Add the frozen vegetables and edamame; stir-fry 4 minutes.",
+        "Whisk the soy sauce, honey, garlic, ginger, remaining cornstarch and 2 tbsp water; add with the tofu and toss 1 minute until glossy.",
+        "Serve over rice with sesame oil and sesame seeds. Keeps 4 days."
+      ]
+    },
+    {
+      "id": "chicken-shawarma-couscous-bowl",
+      "title": "Chicken Shawarma Couscous Bowl",
+      "subtitle": "Warm spices, garlicky sauce",
+      "description": "Juicy spiced chicken thighs over couscous with cucumber-tomato salad, hummus and garlic yogurt.",
+      "mealType": "DINNER",
+      "cuisine": "Middle Eastern",
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "servings": 4,
+      "calories": 453,
+      "proteinG": 44,
+      "carbsG": 40,
+      "fatG": 13,
+      "fiberG": 7,
+      "imageKey": "chicken",
+      "accentColor": "#F29E4C",
+      "tags": [
+        "air-fryer",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 4,
+      "sourceName": "Meal Prepper Kitchen (original) · fridge times via FoodSafety.gov cold storage chart",
+      "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "ingredients": [
+        {
+          "name": "chicken thigh",
+          "quantity": 1.5,
+          "unit": "lb",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 5.99,
+          "note": "boneless skinless",
+          "pantryStaple": false
+        },
+        {
+          "name": "whole wheat couscous",
+          "quantity": 1.0,
+          "unit": "cup",
+          "aisle": "GRAINS",
+          "estPriceUsd": 1.1,
+          "pantryStaple": false
+        },
+        {
+          "name": "olive oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.2,
+          "pantryStaple": true
+        },
+        {
+          "name": "lemon",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.7,
+          "pantryStaple": false
+        },
+        {
+          "name": "ground cumin",
+          "quantity": 2,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.16,
+          "pantryStaple": true
+        },
+        {
+          "name": "smoked paprika",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.1,
+          "pantryStaple": true
+        },
+        {
+          "name": "ground turmeric",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.04,
+          "pantryStaple": true
+        },
+        {
+          "name": "ground cinnamon",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "garlic powder",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.06,
+          "pantryStaple": true
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "cucumber",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.9,
+          "pantryStaple": false
+        },
+        {
+          "name": "cherry tomato",
+          "quantity": 1.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 1.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "red onion",
+          "quantity": 0.25,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "greek yogurt",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.75,
+          "pantryStaple": false
+        },
+        {
+          "name": "garlic",
+          "quantity": 1,
+          "unit": "clove",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.1,
+          "pantryStaple": true
+        },
+        {
+          "name": "hummus",
+          "quantity": 4,
+          "unit": "tbsp",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.8,
+          "pantryStaple": false
+        }
+      ],
+      "steps": [
+        "Toss the chicken thighs with the oil, lemon juice, cumin, smoked paprika, turmeric, cinnamon, garlic powder and salt.",
+        "Air fry at 400°F for 12–14 minutes (or sear in a skillet 5–6 minutes per side) to 175°F. Rest and slice.",
+        "Meanwhile pour 1 cup boiling water over the couscous, cover 5 minutes and fluff.",
+        "Dice the cucumber, tomatoes and red onion. Stir grated garlic into the yogurt.",
+        "Build bowls with couscous, chicken, salad, a spoon of hummus and garlic yogurt. Keeps 4 days."
+      ]
+    },
+    {
+      "id": "turkey-meatballs-marinara",
+      "title": "Turkey Meatballs in Marinara",
+      "subtitle": "Sunday comfort on a weeknight",
+      "description": "Tender parmesan turkey meatballs simmered in marinara with spinach, over chickpea pasta with melty mozzarella.",
+      "mealType": "DINNER",
+      "cuisine": "Italian",
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "servings": 4,
+      "calories": 510,
+      "proteinG": 43,
+      "carbsG": 35,
+      "fatG": 22,
+      "fiberG": 6,
+      "imageKey": "pasta",
+      "accentColor": "#E5533D",
+      "tags": [
+        "comfort",
+        "freezer-friendly",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 2,
+      "mealPrepFriendly": true,
+      "fridgeDays": 4,
+      "sourceName": "Meal Prepper Kitchen (original) · fridge times via FoodSafety.gov cold storage chart",
+      "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "ingredients": [
+        {
+          "name": "ground turkey",
+          "quantity": 1.25,
+          "unit": "lb",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 6.86,
+          "note": "93% lean",
+          "pantryStaple": false
+        },
+        {
+          "name": "egg",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.33,
+          "pantryStaple": false
+        },
+        {
+          "name": "parmesan",
+          "quantity": 4,
+          "unit": "tbsp",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.8,
+          "note": "grated",
+          "pantryStaple": false
+        },
+        {
+          "name": "italian seasoning",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.08,
+          "pantryStaple": true
+        },
+        {
+          "name": "garlic powder",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.03,
+          "pantryStaple": true
+        },
+        {
+          "name": "marinara sauce",
+          "quantity": 2.0,
+          "unit": "cup",
+          "aisle": "CANNED",
+          "estPriceUsd": 3.0,
+          "note": "low-sugar",
+          "pantryStaple": false
+        },
+        {
+          "name": "baby spinach",
+          "quantity": 2.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 1.1,
+          "pantryStaple": false
+        },
+        {
+          "name": "chickpea pasta",
+          "quantity": 6,
+          "unit": "oz",
+          "aisle": "GRAINS",
+          "estPriceUsd": 1.8,
+          "pantryStaple": false
+        },
+        {
+          "name": "shredded mozzarella",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.75,
+          "note": "part-skim",
+          "pantryStaple": false
+        },
+        {
+          "name": "olive oil",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.1,
+          "pantryStaple": true
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Mix the turkey, egg, parmesan, Italian seasoning, garlic powder, salt and pepper; roll into 16 meatballs.",
+        "Brown the meatballs in oil in a deep skillet over medium-high, 5 minutes, turning.",
+        "Pour in the marinara, cover and simmer 10–12 minutes until the meatballs reach 165°F. Stir in the spinach.",
+        "Meanwhile boil the pasta per the package and drain.",
+        "Serve meatballs and sauce over pasta, topped with mozzarella. Keeps 4 days; meatballs in sauce freeze 3 months."
+      ]
+    },
+    {
+      "id": "air-fryer-salmon-cakes",
+      "title": "Air-Fryer Salmon Cakes",
+      "subtitle": "Pantry salmon, crispy edges",
+      "description": "Canned salmon patties with dijon, green onion and lemon, air-fried crisp on English muffins with arugula.",
+      "mealType": "DINNER",
+      "cuisine": "American",
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "servings": 2,
+      "calories": 461,
+      "proteinG": 41,
+      "carbsG": 36,
+      "fatG": 17,
+      "fiberG": 6,
+      "imageKey": "burger",
+      "accentColor": "#D9668F",
+      "tags": [
+        "air-fryer",
+        "pescatarian",
+        "freezer-friendly",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 2,
+      "mealPrepFriendly": true,
+      "fridgeDays": 3,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "canned salmon",
+          "quantity": 2,
+          "unit": "can",
+          "aisle": "CANNED",
+          "estPriceUsd": 8.58,
+          "note": "5–6 oz cans",
+          "pantryStaple": false
+        },
+        {
+          "name": "egg",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.33,
+          "pantryStaple": false
+        },
+        {
+          "name": "rolled oats",
+          "quantity": 0.25,
+          "unit": "cup",
+          "aisle": "GRAINS",
+          "estPriceUsd": 0.1,
+          "pantryStaple": false
+        },
+        {
+          "name": "dijon mustard",
+          "quantity": 2,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.16,
+          "pantryStaple": true
+        },
+        {
+          "name": "green onion",
+          "quantity": 0.25,
+          "unit": "bunch",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "lemon",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.7,
+          "pantryStaple": false
+        },
+        {
+          "name": "greek yogurt",
+          "quantity": 0.25,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.38,
+          "pantryStaple": false
+        },
+        {
+          "name": "arugula",
+          "quantity": 2.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 1.2,
+          "pantryStaple": false
+        },
+        {
+          "name": "english muffin",
+          "quantity": 2,
+          "unit": "whole",
+          "aisle": "BAKERY",
+          "estPriceUsd": 1.2,
+          "note": "whole wheat",
+          "pantryStaple": false
+        },
+        {
+          "name": "olive oil",
+          "quantity": 0.67,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.13,
+          "pantryStaple": true
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Drain the salmon well and flake into a bowl, removing large bones and skin.",
+        "Mix in the egg, oats, dijon, sliced green onion, lemon zest, salt and pepper; form 4 patties.",
+        "Mist with oil and air fry at 400°F for 9–10 minutes, flipping halfway, until golden.",
+        "Stir a squeeze of lemon and 1 tsp dijon into the yogurt for sauce. Toss arugula with lemon and a drizzle of oil.",
+        "Serve 2 cakes per person on toasted English muffins with sauce and arugula. Cakes keep 3 days or freeze 2 months."
+      ]
+    },
+    {
+      "id": "turkey-egg-roll-in-a-bowl",
+      "title": "Egg Roll in a Bowl",
+      "subtitle": "All the flavor, no wrapper",
+      "description": "Gingery ground turkey and crunchy slaw stir-fried with soy, sesame and edamame. Low-carb and one pan.",
+      "mealType": "DINNER",
+      "cuisine": "Chinese-American",
+      "prepMinutes": 5,
+      "cookMinutes": 10,
+      "servings": 4,
+      "calories": 425,
+      "proteinG": 43,
+      "carbsG": 16,
+      "fatG": 21,
+      "fiberG": 7,
+      "imageKey": "stir_fry",
+      "accentColor": "#4BA3A3",
+      "tags": [
+        "quick",
+        "one-pan",
+        "low-carb",
+        "spicy",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 4,
+      "sourceName": "Meal Prepper Kitchen (original) · fridge times via FoodSafety.gov cold storage chart",
+      "sourceUrl": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "ingredients": [
+        {
+          "name": "ground turkey",
+          "quantity": 1.5,
+          "unit": "lb",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 8.23,
+          "note": "93% lean",
+          "pantryStaple": false
+        },
+        {
+          "name": "coleslaw mix",
+          "quantity": 8.0,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 3.36,
+          "pantryStaple": false
+        },
+        {
+          "name": "edamame",
+          "quantity": 2.0,
+          "unit": "cup",
+          "aisle": "FROZEN",
+          "estPriceUsd": 2.0,
+          "note": "shelled",
+          "pantryStaple": false
+        },
+        {
+          "name": "sesame oil",
+          "quantity": 2,
+          "unit": "tsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.24,
+          "pantryStaple": true
+        },
+        {
+          "name": "garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.3,
+          "pantryStaple": true
+        },
+        {
+          "name": "ginger",
+          "quantity": 1,
+          "unit": "tbsp",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "soy sauce",
+          "quantity": 3,
+          "unit": "tbsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.3,
+          "note": "low-sodium",
+          "pantryStaple": true
+        },
+        {
+          "name": "rice vinegar",
+          "quantity": 1,
+          "unit": "tbsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.1,
+          "pantryStaple": true
+        },
+        {
+          "name": "sriracha",
+          "quantity": 2,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.16,
+          "pantryStaple": true
+        },
+        {
+          "name": "green onion",
+          "quantity": 0.5,
+          "unit": "bunch",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.49,
+          "pantryStaple": false
+        }
+      ],
+      "steps": [
+        "Brown the turkey in sesame oil in a large skillet over medium-high, 6 minutes, breaking it up.",
+        "Add garlic and ginger for 30 seconds.",
+        "Add the coleslaw mix, edamame, soy sauce and rice vinegar; toss 3–4 minutes until the cabbage is just tender.",
+        "Finish with sriracha and green onion. Keeps 4 days. Add a rice pouch on hungrier days."
+      ]
+    },
+    {
+      "id": "air-fryer-chicken-parmesan",
+      "title": "Air-Fryer Chicken Parmesan",
+      "subtitle": "Crispy comfort, half the oil",
+      "description": "Panko-parmesan crusted chicken air-fried crisp, topped with marinara and mozzarella, with whole-wheat pasta.",
+      "mealType": "DINNER",
+      "cuisine": "Italian",
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "servings": 4,
+      "calories": 590,
+      "proteinG": 55,
+      "carbsG": 52,
+      "fatG": 18,
+      "fiberG": 6,
+      "imageKey": "chicken",
+      "accentColor": "#E5533D",
+      "tags": [
+        "air-fryer",
+        "comfort",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 2,
+      "mealPrepFriendly": true,
+      "fridgeDays": 3,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "chicken breast",
+          "quantity": 1.5,
+          "unit": "lb",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 6.74,
+          "pantryStaple": false
+        },
+        {
+          "name": "egg",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.33,
+          "pantryStaple": false
+        },
+        {
+          "name": "panko breadcrumb",
+          "quantity": 0.75,
+          "unit": "cup",
+          "aisle": "GRAINS",
+          "estPriceUsd": 0.75,
+          "note": "whole wheat if available",
+          "pantryStaple": false
+        },
+        {
+          "name": "parmesan",
+          "quantity": 4,
+          "unit": "tbsp",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.8,
+          "note": "grated",
+          "pantryStaple": false
+        },
+        {
+          "name": "italian seasoning",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.08,
+          "pantryStaple": true
+        },
+        {
+          "name": "marinara sauce",
+          "quantity": 1.33,
+          "unit": "cup",
+          "aisle": "CANNED",
+          "estPriceUsd": 2.0,
+          "pantryStaple": false
+        },
+        {
+          "name": "shredded mozzarella",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.75,
+          "note": "part-skim",
+          "pantryStaple": false
+        },
+        {
+          "name": "whole wheat pasta",
+          "quantity": 6,
+          "unit": "oz",
+          "aisle": "GRAINS",
+          "estPriceUsd": 0.78,
+          "pantryStaple": false
+        },
+        {
+          "name": "olive oil",
+          "quantity": 1.33,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.27,
+          "pantryStaple": true
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Slice the chicken breasts in half horizontally into 4 thin cutlets; season with salt, pepper and Italian seasoning.",
+        "Beat the egg in one dish; mix panko and parmesan in another. Dip each cutlet in egg, then press into the crumbs.",
+        "Mist with oil and air fry at 390°F for 10–12 minutes, flipping halfway, to 165°F.",
+        "Top each with marinara and mozzarella and air fry 2 minutes more to melt. Meanwhile boil the pasta.",
+        "Serve over pasta with extra marinara. Keeps 3 days; re-crisp in the air fryer 4 minutes."
+      ]
+    },
+    {
+      "id": "tonight-chicken-fried-rice",
+      "title": "10-Minute Chicken Fried Rice",
+      "subtitle": "Rice pouch + rotisserie magic",
+      "description": "Microwave rice, frozen veggies, eggs and rotisserie chicken stir-fried with soy and sesame — fast, filling, one pan.",
+      "mealType": "DINNER",
+      "cuisine": "Chinese-American",
+      "prepMinutes": 3,
+      "cookMinutes": 7,
+      "servings": 2,
+      "calories": 572,
+      "proteinG": 46,
+      "carbsG": 52,
+      "fatG": 20,
+      "fiberG": 6,
+      "imageKey": "stir_fry",
+      "accentColor": "#F6C945",
+      "tags": [
+        "quick",
+        "tonight",
+        "one-pan",
+        "microwave",
+        "high-protein",
+        "meal-prep"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": true,
+      "fridgeDays": 4,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "microwave rice pouch",
+          "quantity": 1,
+          "unit": "pack",
+          "aisle": "GRAINS",
+          "estPriceUsd": 2.29,
+          "note": "brown or jasmine",
+          "pantryStaple": false
+        },
+        {
+          "name": "rotisserie chicken",
+          "quantity": 0.35,
+          "unit": "whole",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 2.8,
+          "note": "about 8 oz meat",
+          "pantryStaple": false
+        },
+        {
+          "name": "egg",
+          "quantity": 3,
+          "unit": "whole",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.99,
+          "pantryStaple": false
+        },
+        {
+          "name": "frozen stir-fry vegetables",
+          "quantity": 2.0,
+          "unit": "cup",
+          "aisle": "FROZEN",
+          "estPriceUsd": 1.0,
+          "pantryStaple": false
+        },
+        {
+          "name": "soy sauce",
+          "quantity": 2,
+          "unit": "tbsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.2,
+          "note": "low-sodium",
+          "pantryStaple": true
+        },
+        {
+          "name": "sesame oil",
+          "quantity": 2,
+          "unit": "tsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.24,
+          "pantryStaple": true
+        },
+        {
+          "name": "olive oil",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.1,
+          "pantryStaple": true
+        },
+        {
+          "name": "green onion",
+          "quantity": 0.25,
+          "unit": "bunch",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.25,
+          "pantryStaple": false
+        },
+        {
+          "name": "sriracha",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.08,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Heat the oil in a large nonstick skillet over high. Add the frozen vegetables and cook 2 minutes.",
+        "Push aside, add the eggs and scramble 1 minute.",
+        "Add the rice straight from the pouch (break up clumps) and the shredded chicken; stir-fry 3 minutes until hot and a little crispy.",
+        "Season with soy sauce and sesame oil; top with green onion and sriracha if you like. Leftovers keep 4 days."
+      ]
+    },
+    {
+      "id": "cottage-cheese-berry-bowl",
+      "title": "Cottage Cheese Berry Bowl",
+      "subtitle": "Slow protein before bed",
+      "description": "Creamy cottage cheese topped with warm berries and a drizzle of honey — a great late-night snack.",
+      "mealType": "SNACK",
+      "cuisine": "American",
+      "prepMinutes": 3,
+      "cookMinutes": 0,
+      "servings": 1,
+      "calories": 241,
+      "proteinG": 24,
+      "carbsG": 25,
+      "fatG": 5,
+      "fiberG": 2,
+      "imageKey": "parfait",
+      "accentColor": "#D9668F",
+      "tags": [
+        "quick",
+        "tonight",
+        "no-cook",
+        "vegetarian"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": false,
+      "fridgeDays": 0,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "cottage cheese",
+          "quantity": 1.0,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 1.5,
+          "note": "2% low-fat",
+          "pantryStaple": false
+        },
+        {
+          "name": "frozen mixed berries",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "FROZEN",
+          "estPriceUsd": 0.5,
+          "pantryStaple": false
+        },
+        {
+          "name": "honey",
+          "quantity": 0.33,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.07,
+          "pantryStaple": true
+        },
+        {
+          "name": "ground cinnamon",
+          "quantity": 0.1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Microwave the berries 30–40 seconds until juicy.",
+        "Spoon over the cottage cheese and drizzle with honey and a pinch of cinnamon."
+      ]
+    },
+    {
+      "id": "chili-lime-edamame",
+      "title": "Chili-Lime Edamame",
+      "subtitle": "Salty, poppable, 17 g protein",
+      "description": "Shelled edamame microwaved and tossed with lime, chili flakes and flaky salt.",
+      "mealType": "SNACK",
+      "cuisine": "Japanese",
+      "prepMinutes": 1,
+      "cookMinutes": 3,
+      "servings": 1,
+      "calories": 196,
+      "proteinG": 17,
+      "carbsG": 14,
+      "fatG": 8,
+      "fiberG": 8,
+      "imageKey": "snack_box",
+      "accentColor": "#9BC53D",
+      "tags": [
+        "quick",
+        "tonight",
+        "microwave",
+        "vegetarian",
+        "spicy"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": false,
+      "fridgeDays": 0,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "edamame",
+          "quantity": 1.0,
+          "unit": "cup",
+          "aisle": "FROZEN",
+          "estPriceUsd": 1.0,
+          "note": "shelled",
+          "pantryStaple": false
+        },
+        {
+          "name": "lime",
+          "quantity": 0.25,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.1,
+          "pantryStaple": false
+        },
+        {
+          "name": "red pepper flakes",
+          "quantity": 0.1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        },
+        {
+          "name": "kosher salt",
+          "quantity": 0.1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Microwave the edamame with 1 tbsp water, covered, for 2–3 minutes.",
+        "Drain and toss with lime juice, red pepper flakes and salt."
+      ]
+    },
+    {
+      "id": "turkey-cheese-rollups",
+      "title": "Turkey & Cheese Roll-Ups",
+      "subtitle": "Snack-box energy",
+      "description": "Deli turkey wrapped around string cheese with crunchy veggie sticks and mustard for dipping.",
+      "mealType": "SNACK",
+      "cuisine": "American",
+      "prepMinutes": 4,
+      "cookMinutes": 0,
+      "servings": 1,
+      "calories": 192,
+      "proteinG": 23,
+      "carbsG": 7,
+      "fatG": 8,
+      "fiberG": 1,
+      "imageKey": "snack_box",
+      "accentColor": "#F29E4C",
+      "tags": [
+        "quick",
+        "tonight",
+        "no-cook",
+        "low-carb",
+        "on-the-go"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": false,
+      "fridgeDays": 0,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "deli turkey",
+          "quantity": 3,
+          "unit": "oz",
+          "aisle": "MEAT_SEAFOOD",
+          "estPriceUsd": 2.07,
+          "note": "low-sodium",
+          "pantryStaple": false
+        },
+        {
+          "name": "string cheese",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.5,
+          "note": "part-skim",
+          "pantryStaple": false
+        },
+        {
+          "name": "cucumber",
+          "quantity": 0.25,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.23,
+          "pantryStaple": false
+        },
+        {
+          "name": "bell pepper",
+          "quantity": 0.25,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.31,
+          "pantryStaple": false
+        },
+        {
+          "name": "dijon mustard",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.08,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Split the string cheese lengthwise.",
+        "Roll each piece in turkey slices.",
+        "Serve with cucumber and pepper sticks and dijon for dipping."
+      ]
+    },
+    {
+      "id": "everything-rice-cake-stackers",
+      "title": "Everything Rice Cake Stackers",
+      "subtitle": "Crunchy, savory, quick",
+      "description": "Rice cakes topped with cottage cheese, sliced egg, tomatoes and everything bagel seasoning.",
+      "mealType": "SNACK",
+      "cuisine": "American",
+      "prepMinutes": 5,
+      "cookMinutes": 0,
+      "servings": 1,
+      "calories": 212,
+      "proteinG": 20,
+      "carbsG": 15,
+      "fatG": 8,
+      "fiberG": 1,
+      "imageKey": "toast",
+      "accentColor": "#F6C945",
+      "tags": [
+        "quick",
+        "no-cook",
+        "vegetarian",
+        "tonight"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": false,
+      "fridgeDays": 0,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "rice cake",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.25,
+          "note": "lightly salted",
+          "pantryStaple": false
+        },
+        {
+          "name": "cottage cheese",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.75,
+          "note": "2% low-fat",
+          "pantryStaple": false
+        },
+        {
+          "name": "egg",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.33,
+          "note": "hard-boiled",
+          "pantryStaple": false
+        },
+        {
+          "name": "cherry tomato",
+          "quantity": 0.25,
+          "unit": "cup",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.31,
+          "pantryStaple": false
+        },
+        {
+          "name": "everything bagel seasoning",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.07,
+          "pantryStaple": true
+        },
+        {
+          "name": "black pepper",
+          "quantity": 0.1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Spread the cottage cheese over the rice cake.",
+        "Top with a sliced hard-boiled egg (batch-boil a few on Sunday) and halved cherry tomatoes.",
+        "Sprinkle with everything bagel seasoning and pepper."
+      ]
+    },
+    {
+      "id": "chocolate-protein-yogurt-pudding",
+      "title": "Chocolate Protein Pudding",
+      "subtitle": "Dessert that's 30 g protein",
+      "description": "Greek yogurt whisked with chocolate protein and cocoa until it turns into a thick, mousse-like pudding.",
+      "mealType": "SNACK",
+      "cuisine": "American",
+      "prepMinutes": 3,
+      "cookMinutes": 0,
+      "servings": 1,
+      "calories": 202,
+      "proteinG": 30,
+      "carbsG": 16,
+      "fatG": 2,
+      "fiberG": 2,
+      "imageKey": "parfait",
+      "accentColor": "#8A6B4E",
+      "tags": [
+        "quick",
+        "tonight",
+        "no-cook",
+        "vegetarian",
+        "high-protein"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": false,
+      "fridgeDays": 0,
+      "sourceName": "Meal Prepper Kitchen (original) · protein portion via ISSN position stand",
+      "sourceUrl": "https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0177-8",
+      "ingredients": [
+        {
+          "name": "greek yogurt",
+          "quantity": 0.75,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 1.12,
+          "note": "nonfat plain",
+          "pantryStaple": false
+        },
+        {
+          "name": "whey protein powder",
+          "quantity": 15,
+          "unit": "g",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.6,
+          "note": "chocolate",
+          "pantryStaple": false
+        },
+        {
+          "name": "cocoa powder",
+          "quantity": 1,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.15,
+          "pantryStaple": true
+        },
+        {
+          "name": "maple syrup",
+          "quantity": 0.33,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.12,
+          "pantryStaple": true
+        },
+        {
+          "name": "vanilla extract",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.07,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Whisk the yogurt, protein powder, cocoa, maple syrup and vanilla until smooth (add a splash of milk if thick).",
+        "Eat right away or chill 10 minutes for a firmer set."
+      ]
+    },
+    {
+      "id": "apple-pb-yogurt-dip",
+      "title": "Apple Slices with PB Yogurt Dip",
+      "subtitle": "Sweet, crunchy, satisfying",
+      "description": "Crisp apple slices dunked in a peanut-butter-cinnamon Greek yogurt dip.",
+      "mealType": "SNACK",
+      "cuisine": "American",
+      "prepMinutes": 4,
+      "cookMinutes": 0,
+      "servings": 1,
+      "calories": 226,
+      "proteinG": 18,
+      "carbsG": 34,
+      "fatG": 2,
+      "fiberG": 5,
+      "imageKey": "snack_box",
+      "accentColor": "#9BC53D",
+      "tags": [
+        "quick",
+        "tonight",
+        "no-cook",
+        "vegetarian",
+        "on-the-go"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": false,
+      "fridgeDays": 0,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "apple",
+          "quantity": 1,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.9,
+          "pantryStaple": false
+        },
+        {
+          "name": "greek yogurt",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.75,
+          "note": "nonfat plain",
+          "pantryStaple": false
+        },
+        {
+          "name": "powdered peanut butter",
+          "quantity": 2,
+          "unit": "tbsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.5,
+          "pantryStaple": false
+        },
+        {
+          "name": "ground cinnamon",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Stir the powdered peanut butter and cinnamon into the yogurt until smooth.",
+        "Slice the apple and dip away. (Squeeze a little lemon on the slices if packing it.)"
+      ]
+    },
+    {
+      "id": "mango-lassi-protein-shake",
+      "title": "Mango Lassi Protein Shake",
+      "subtitle": "Tangy, tropical, 5 minutes",
+      "description": "Greek yogurt, milk and frozen mango blended with vanilla protein, a squeeze of lime and a pinch of cinnamon.",
+      "mealType": "SNACK",
+      "cuisine": "Indian",
+      "prepMinutes": 5,
+      "cookMinutes": 0,
+      "servings": 1,
+      "calories": 221,
+      "proteinG": 28,
+      "carbsG": 25,
+      "fatG": 1,
+      "fiberG": 2,
+      "imageKey": "smoothie",
+      "accentColor": "#F6C945",
+      "tags": [
+        "quick",
+        "tonight",
+        "no-cook",
+        "vegetarian"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": false,
+      "fridgeDays": 0,
+      "sourceName": "Meal Prepper Kitchen (original) · protein portion via ISSN position stand",
+      "sourceUrl": "https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0177-8",
+      "ingredients": [
+        {
+          "name": "greek yogurt",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.75,
+          "note": "nonfat plain",
+          "pantryStaple": false
+        },
+        {
+          "name": "milk",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.15,
+          "note": "fat-free",
+          "pantryStaple": false
+        },
+        {
+          "name": "frozen mango",
+          "quantity": 0.5,
+          "unit": "cup",
+          "aisle": "FROZEN",
+          "estPriceUsd": 0.55,
+          "pantryStaple": false
+        },
+        {
+          "name": "whey protein powder",
+          "quantity": 15,
+          "unit": "g",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.6,
+          "note": "vanilla",
+          "pantryStaple": false
+        },
+        {
+          "name": "lime",
+          "quantity": 0.25,
+          "unit": "whole",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.1,
+          "pantryStaple": false
+        },
+        {
+          "name": "ground cinnamon",
+          "quantity": 0.1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Add milk, yogurt, protein powder, lime juice and cinnamon to the blender.",
+        "Add the frozen mango and blend 45 seconds until thick and frosty."
+      ]
+    },
+    {
+      "id": "spicy-tuna-rice-cakes",
+      "title": "Spicy Tuna Rice Cakes",
+      "subtitle": "Crispy, creamy, sriracha kick",
+      "description": "Tuna mixed with sriracha yogurt and soy, piled on crunchy rice cakes with green onion.",
+      "mealType": "SNACK",
+      "cuisine": "Japanese",
+      "prepMinutes": 5,
+      "cookMinutes": 0,
+      "servings": 1,
+      "calories": 198,
+      "proteinG": 30,
+      "carbsG": 15,
+      "fatG": 2,
+      "fiberG": 1,
+      "imageKey": "poke",
+      "accentColor": "#E5533D",
+      "tags": [
+        "quick",
+        "tonight",
+        "no-cook",
+        "pescatarian",
+        "spicy",
+        "high-protein"
+      ],
+      "difficulty": 1,
+      "mealPrepFriendly": false,
+      "fridgeDays": 0,
+      "sourceName": "Meal Prepper Kitchen (original) · nutrition via USDA FoodData Central",
+      "sourceUrl": "https://fdc.nal.usda.gov/",
+      "ingredients": [
+        {
+          "name": "canned tuna",
+          "quantity": 1,
+          "unit": "can",
+          "aisle": "CANNED",
+          "estPriceUsd": 1.79,
+          "note": "5 oz in water, drained",
+          "pantryStaple": false
+        },
+        {
+          "name": "greek yogurt",
+          "quantity": 0.06,
+          "unit": "cup",
+          "aisle": "DAIRY_EGGS",
+          "estPriceUsd": 0.09,
+          "pantryStaple": false
+        },
+        {
+          "name": "sriracha",
+          "quantity": 1,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.08,
+          "pantryStaple": true
+        },
+        {
+          "name": "soy sauce",
+          "quantity": 0.33,
+          "unit": "tbsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.03,
+          "pantryStaple": true
+        },
+        {
+          "name": "sesame oil",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.03,
+          "pantryStaple": true
+        },
+        {
+          "name": "rice cake",
+          "quantity": 2,
+          "unit": "whole",
+          "aisle": "PANTRY",
+          "estPriceUsd": 0.5,
+          "pantryStaple": false
+        },
+        {
+          "name": "green onion",
+          "quantity": 0.1,
+          "unit": "bunch",
+          "aisle": "PRODUCE",
+          "estPriceUsd": 0.1,
+          "pantryStaple": false
+        },
+        {
+          "name": "sesame seed",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "aisle": "SPICES",
+          "estPriceUsd": 0.02,
+          "pantryStaple": true
+        }
+      ],
+      "steps": [
+        "Mix the drained tuna with the yogurt, sriracha, soy sauce and a few drops of sesame oil.",
+        "Pile onto the rice cakes and top with sliced green onion and sesame seeds."
+      ]
+    }
+  ]
+}
