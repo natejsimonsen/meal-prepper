@@ -10,11 +10,11 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.CalendarMonth
 import androidx.compose.material.icons.outlined.Home
-import androidx.compose.material.icons.outlined.MenuBook
+import androidx.compose.material.icons.automirrored.outlined.MenuBook
 import androidx.compose.material.icons.outlined.ShoppingBag
 import androidx.compose.material.icons.rounded.CalendarMonth
 import androidx.compose.material.icons.rounded.Home
-import androidx.compose.material.icons.rounded.MenuBook
+import androidx.compose.material.icons.automirrored.rounded.MenuBook
 import androidx.compose.material.icons.rounded.ShoppingBag
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -62,7 +62,7 @@ private data class TopLevel(
 
 private val topLevels = listOf(
     TopLevel(TodayRoute, TodayRoute::class, "Today", Icons.Outlined.Home, Icons.Rounded.Home),
-    TopLevel(RecipesRoute, RecipesRoute::class, "Recipes", Icons.Outlined.MenuBook, Icons.Rounded.MenuBook),
+    TopLevel(RecipesRoute, RecipesRoute::class, "Recipes", Icons.AutoMirrored.Outlined.MenuBook, Icons.AutoMirrored.Rounded.MenuBook),
     TopLevel(PlanRoute, PlanRoute::class, "Plan", Icons.Outlined.CalendarMonth, Icons.Rounded.CalendarMonth),
     TopLevel(ShoppingRoute, ShoppingRoute::class, "List", Icons.Outlined.ShoppingBag, Icons.Rounded.ShoppingBag),
 )
