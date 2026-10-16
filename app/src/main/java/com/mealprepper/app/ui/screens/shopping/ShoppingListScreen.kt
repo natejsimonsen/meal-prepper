@@ -369,7 +369,7 @@ private fun QuickAddField(onAdd: (String) -> Boolean) {
         value = text,
         onValueChange = { text = it },
         modifier = Modifier.fillMaxWidth().padding(horizontal = 20.dp, vertical = 8.dp),
-        placeholder = { Text("Quick add — try \"2 avocado\" or \"1 lb shrimp\"") },
+        placeholder = { Text("Quick add, e.g. \"2 avocado\"", maxLines = 1) },
         leadingIcon = { Icon(Icons.Rounded.Add, contentDescription = null) },
         trailingIcon = {
             if (text.isNotBlank()) {

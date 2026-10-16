@@ -1,6 +1,7 @@
 package com.mealprepper.app.domain
 
 import com.mealprepper.app.data.model.MealType
+import com.mealprepper.app.data.model.RecipeWithIngredients
 import com.mealprepper.app.data.model.UserProfile
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
@@ -19,12 +20,77 @@ class PlanGeneratorTest {
     private fun plan(seed: Long = 42L, days: Int = 7, p: UserProfile = profile) =
         generator.generate(recipes, targets, p, days, seed)
 
+    /** Portions actually eaten that day (a batch dinner cooks 2 but you eat 1). */
+    private fun eaten(s: PlannedSlot): Int = if (s.slot == MealType.DINNER) 1 else s.servings
+
+    private fun dayKcal(slots: List<PlannedSlot>, day: Int, lib: Map<String, RecipeWithIngredients> = byId) =
+        slots.filter { it.dayOffset == day }.sumOf { lib.getValue(it.recipeId).recipe.calories * eaten(it) }
+
+    private fun dayProtein(slots: List<PlannedSlot>, day: Int, lib: Map<String, RecipeWithIngredients> = byId) =
+        slots.filter { it.dayOffset == day }.sumOf { lib.getValue(it.recipeId).recipe.proteinG * eaten(it) }
+
     @Test
     fun fillsEverySlotEveryDay() {
         val slots = plan()
         for (day in 0 until 7) {
             val today = slots.filter { it.dayOffset == day }.map { it.slot }
-            assertEquals("day $day: $today", listOf(MealType.BREAKFAST, MealType.LUNCH, MealType.DINNER, MealType.SNACK), today)
+            assertEquals("day $day: $today", setOf(MealType.BREAKFAST, MealType.LUNCH, MealType.DINNER, MealType.SNACK), today.toSet())
+            assertEquals("day $day: $today", 1, today.count { it == MealType.BREAKFAST })
+            assertEquals("day $day: $today", 1, today.count { it == MealType.LUNCH })
+            assertEquals("day $day: $today", 1, today.count { it == MealType.DINNER })
+            assertTrue("day $day: $today", today.count { it == MealType.SNACK } in 1..2)
+            assertEquals("sorted by slot", today.sortedBy { it.ordinal }, today)
+        }
+    }
+
+    @Test
+    fun lowCalorieLibraryIsToppedUpToTarget() {
+        // 1 serving of everything ≈ 300 + 450 + 500 + 180 = 1430 kcal, far below ~2160.
+        val low = ArrayList<RecipeWithIngredients>()
+        val proteins = listOf("chicken breast", "salmon", "ground turkey", "lean beef", "shrimp", "tofu")
+        for (i in 0 until 10) low += recipe("b$i", MealType.BREAKFAST, calories = 300 + i * 5, protein = 25, servings = 1, cuisine = "C$i", price = 1.0)
+        for (i in 0 until 14) low += recipe("l$i", MealType.LUNCH, calories = 450 + i * 5, protein = 35, cuisine = "C${i % 6}",
+            ingredients = listOf(Triple(proteins[i % 6], 0.5, "lb")), price = 4.0)
+        for (i in 0 until 18) low += recipe("d$i", MealType.DINNER, calories = 500 + i * 5, protein = 40, servings = 4, mealPrep = i % 2 == 0,
+            cuisine = "C${(i + 3) % 6}", ingredients = listOf(Triple(proteins[(i + 2) % 6], 1.0, "lb")), price = 8.0)
+        for (i in 0 until 8) low += recipe("s$i", MealType.SNACK, calories = 160 + i * 10, protein = 15, servings = 1, minutes = 2, price = 1.0)
+        val lib = low.associateBy { it.recipe.id }
+        for (seed in 1L..20L) {
+            val slots = generator.generate(low, targets, profile, 7, seed)
+            for (day in 0 until 7) {
+                val kcal = dayKcal(slots, day, lib)
+                assertTrue("seed $seed day $day kcal $kcal vs ${targets.calories}",
+                    kcal >= targets.calories * 0.9 && kcal <= targets.calories * 1.1)
+            }
+            // Top-ups never touch dinners or leftovers, so batch accounting holds.
+            for (lo in slots.filter { it.isLeftover }) {
+                assertEquals(1, lo.servings)
+                val dinner = slots.single { it.dayOffset == lo.dayOffset - 1 && it.slot == MealType.DINNER }
+                assertEquals(lo.recipeId, dinner.recipeId)
+                assertEquals(2, dinner.servings)
+            }
+            assertTrue(slots.filter { it.slot == MealType.DINNER }.all { d ->
+                d.servings == 1 || slots.any { it.isLeftover && it.dayOffset == d.dayOffset + 1 && it.recipeId == d.recipeId }
+            })
+            // At most two snacks per day; two snacks on one day are different recipes.
+            for (day in 0 until 7) {
+                val snacks = slots.filter { it.dayOffset == day && it.slot == MealType.SNACK }
+                assertTrue(snacks.size <= 2)
+                assertEquals(snacks.size, snacks.map { it.recipeId }.toSet().size)
+            }
+        }
+    }
+
+    @Test
+    fun noTopUpBeyondTenPercent() {
+        // Everything is big: never add extra portions that would push past +10%.
+        val big = library().map { rw -> rw.copy(recipe = rw.recipe.copy(calories = rw.recipe.calories + 150)) }
+        val lib = big.associateBy { it.recipe.id }
+        val slots = generator.generate(big, targets, profile, 7, 9)
+        for (day in 0 until 7) {
+            val withoutTopUp = slots.filter { it.dayOffset == day }
+            assertTrue(withoutTopUp.none { it.slot != MealType.DINNER && !it.isLeftover && it.servings > 1 } ||
+                dayKcal(slots, day, lib) <= targets.calories * 1.1)
         }
     }
 
@@ -106,17 +172,17 @@ class PlanGeneratorTest {
     fun noSnackWhenDisabled() {
         val slots = plan(p = profile.copy(includeSnack = false))
         assertTrue(slots.none { it.slot == MealType.SNACK })
-        assertEquals(21, slots.size)
+        assertEquals(7, slots.count { it.slot == MealType.BREAKFAST })
+        assertEquals(7, slots.count { it.slot == MealType.DINNER })
     }
 
     @Test
     fun dailyCaloriesAndProteinNearTargets() {
         val slots = plan(seed = 3)
         for (day in 0 until 7) {
-            val today = slots.filter { it.dayOffset == day }.map { byId.getValue(it.recipeId).recipe }
-            val kcal = today.sumOf { it.calories }
-            val protein = today.sumOf { it.proteinG }
-            assertTrue("day $day kcal $kcal vs ${targets.calories}", kcal in (targets.calories * 0.85).toInt()..(targets.calories * 1.15).toInt())
+            val kcal = dayKcal(slots, day)
+            val protein = dayProtein(slots, day)
+            assertTrue("day $day kcal $kcal vs ${targets.calories}", kcal in (targets.calories * 0.9).toInt()..(targets.calories * 1.1).toInt())
             assertTrue("day $day protein $protein vs ${targets.proteinG}", protein >= targets.proteinG * 0.9)
         }
     }

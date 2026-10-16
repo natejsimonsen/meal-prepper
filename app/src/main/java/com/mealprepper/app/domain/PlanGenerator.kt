@@ -16,8 +16,10 @@ import kotlin.random.Random
  * One meal in a generated plan.
  *
  * @param dayOffset 0-based day from the plan start.
- * @param servings servings to cook (a dinner whose leftovers become tomorrow's lunch is cooked
- *   with 2 servings); leftovers have `servings = 1` and need no shopping/cooking.
+ * @param servings servings to cook/shop for. For breakfast, lunch and snack this equals the
+ *   portions eaten (may be 2 to reach the calorie target). A dinner whose leftovers become
+ *   tomorrow's lunch is cooked with 2 servings (1 eaten tonight + 1 leftover). Leftovers have
+ *   `servings = 1` and need no shopping/cooking. Portions eaten = `if (slot == DINNER) 1 else servings`.
  */
 data class PlannedSlot(
     val dayOffset: Int,
@@ -37,6 +39,10 @@ data class PlannedSlot(
  * - Recipes matching `profile.avoidTags` (tag, cuisine or main protein) are never used.
  * - Meal-prep-friendly dinners with ≥ 2 servings are cooked as 2 servings and become the next
  *   day's lunch (`isLeftover = true`, `servings = 1`).
+ * - Portions: after the main picks, a day below 95% of the calorie target is topped up (≤ 3
+ *   steps, never above 110%) by a 2nd serving of breakfast / snack / fresh lunch, or a second
+ *   SNACK entry. Dinners are never bumped, so a dinner's `servings` is always its cooked batch
+ *   size (1, or 2 when tomorrow's lunch is its leftover).
  * - Scoring favours: daily calories near the target, protein ≥ target, rotating main proteins
  *   and cuisines, quick recipes on weekdays, and staying inside the weekly budget
  *   (cost = Σ ingredient estPriceUsd × servings / recipe.servings, leftovers cost nothing).
@@ -58,6 +64,7 @@ class PlanGenerator {
         val rng = Random(seed)
         val slots = slotsFor(profile)
         val pools = slots.associateWith { poolFor(it, all) }
+        val byId = all.associateBy { it.id }
         val dailyBudget = profile.weeklyBudgetUsd.coerceAtLeast(1) / 7.0
 
         val cookedDays = HashMap<String, MutableList<Int>>()
@@ -125,6 +132,63 @@ class PlanGenerator {
                 }
                 if (leftover) leftoverLunchFor[day + 1] = choice
             }
+            // Close the calorie gap: portions are fixed per recipe, so 1 serving of everything
+            // often lands well under target. Add a 2nd portion of breakfast/snack/fresh lunch, or
+            // a second snack, whichever lands closest to the target without overshooting +10%.
+            val snackPool = pools[MealType.SNACK]?.filter { it.recipe.mealType == MealType.SNACK }.orEmpty()
+            var adjustments = 0
+            while (adjustments < MAX_CALORIE_ADJUSTMENTS && kcal < targets.calories * CALORIE_LOW) {
+                val target = targets.calories.toDouble()
+                val upper = target * CALORIE_HIGH
+                var bestGap = abs(target - kcal)
+                var bestBump = -1
+                var bestSnack: Candidate? = null
+                for (i in result.indices) {
+                    val ps = result[i]
+                    if (ps.dayOffset != day || ps.isLeftover || ps.servings >= 2) continue
+                    if (ps.slot == MealType.DINNER) continue // dinner servings = cooked batch size
+                    val cal = byId.getValue(ps.recipeId).recipe.calories
+                    val newKcal = kcal + cal
+                    if (newKcal <= upper && abs(target - newKcal) < bestGap) {
+                        bestGap = abs(target - newKcal); bestBump = i
+                    }
+                }
+                val snacksToday = result.count { it.dayOffset == day && it.slot == MealType.SNACK }
+                if (MealType.SNACK in slots && snacksToday < MAX_SNACKS_PER_DAY && snackPool.isNotEmpty()) {
+                    val todayIds = result.filter { it.dayOffset == day }.map { it.recipeId }.toSet()
+                    val extra = (0..2).asSequence()
+                        .map { level ->
+                            snackPool.filter { it.id !in todayIds && allowed(it, MealType.SNACK, day, level, cookedDays, picked) }
+                        }
+                        .firstOrNull { it.isNotEmpty() }
+                        ?.filter { kcal + it.recipe.calories <= upper }
+                        ?.minWithOrNull(
+                            compareBy<Candidate>({ abs(target - kcal - it.recipe.calories) }, { -it.recipe.proteinG }, { it.id })
+                        )
+                    if (extra != null && abs(target - kcal - extra.recipe.calories) < bestGap) {
+                        bestSnack = extra; bestBump = -1
+                    }
+                }
+                val snack = bestSnack
+                if (snack != null) {
+                    result += PlannedSlot(day, MealType.SNACK, snack.id, 1, isLeftover = false)
+                    kcal += snack.recipe.calories
+                    protein += snack.recipe.proteinG
+                    spent += snack.costPerServing
+                    cookedDays.getOrPut(snack.id) { ArrayList() } += day
+                } else if (bestBump >= 0) {
+                    val ps = result[bestBump]
+                    val c = byId.getValue(ps.recipeId)
+                    result[bestBump] = ps.copy(servings = ps.servings + 1)
+                    kcal += c.recipe.calories
+                    protein += c.recipe.proteinG
+                    spent += c.costPerServing
+                } else {
+                    break
+                }
+                adjustments++
+            }
+
             // Leftover lunches also count for tomorrow's protein/cuisine rotation.
             leftoverLunchFor[day]?.let { lo ->
                 proteinByDay.getOrPut(day) { ArrayList() } += lo.proteinKey
@@ -353,6 +417,11 @@ class PlanGenerator {
         const val MIN_REPEAT_GAP_DAYS: Int = 3
         const val MAX_BREAKFAST_PER_WEEK: Int = 2
         private const val RANDOMNESS = 0.8
+        /** Top up a day while it is below 95% of target; never push it above 110%. */
+        private const val CALORIE_LOW = 0.95
+        private const val CALORIE_HIGH = 1.10
+        private const val MAX_CALORIE_ADJUSTMENTS = 3
+        private const val MAX_SNACKS_PER_DAY = 2
         private const val OTHER = "other"
 
         private val PROTEIN_KEYWORDS: List<Pair<String, String>> = listOf(

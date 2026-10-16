@@ -253,14 +253,7 @@ fun RecipeDetailScreen(
                         .weight(1f)
                         .padding(horizontal = 12.dp),
                 ) {
-                    AnimatedVisibility(visible = scrolled, enter = fadeIn(), exit = fadeOut()) {
-                        Text(
-                            recipe.title,
-                            style = MaterialTheme.typography.titleMedium,
-                            maxLines = 1,
-                            overflow = TextOverflow.Ellipsis,
-                        )
-                    }
+                    ScrolledTitle(visible = scrolled, title = recipe.title)
                 }
                 CircleIconButton(
                     icon = if (recipe.isFavorite) Icons.Rounded.Favorite else Icons.Rounded.FavoriteBorder,
@@ -413,6 +406,19 @@ private fun TitleBlock(recipe: RecipeEntity) {
             Spacer(Modifier.height(16.dp))
             Text(recipe.description, style = MaterialTheme.typography.bodyMedium)
         }
+    }
+}
+
+/** Kept outside any Row/Column scope so the plain (non-scoped) AnimatedVisibility resolves. */
+@Composable
+private fun ScrolledTitle(visible: Boolean, title: String) {
+    AnimatedVisibility(visible = visible, enter = fadeIn(), exit = fadeOut()) {
+        Text(
+            title,
+            style = MaterialTheme.typography.titleMedium,
+            maxLines = 1,
+            overflow = TextOverflow.Ellipsis,
+        )
     }
 }
 
