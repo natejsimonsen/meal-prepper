@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.mealprepper.app.data.model.UserProfile
 import com.mealprepper.app.ui.nav.AppNavHost
@@ -24,7 +25,9 @@ class MainActivity : ComponentActivity() {
             splash.setKeepOnScreenCondition { profile == null }
             val p = profile ?: return@setContent
             MealPrepperTheme(dynamicColor = p.useDynamicColor) {
-                AppNavHost(startOnboarding = !p.onboardingDone)
+                // Decide the start destination once, so finishing onboarding doesn't rebuild the graph.
+                val startOnboarding = remember { !p.onboardingDone }
+                AppNavHost(startOnboarding = startOnboarding)
             }
         }
     }
