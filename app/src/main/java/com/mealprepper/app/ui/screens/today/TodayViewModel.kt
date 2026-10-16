@@ -55,10 +55,10 @@ data class TodayUiState(
 )
 
 private fun List<PlannedMeal>.totals(): MacroTotals = MacroTotals(
-    calories = sumOf { it.recipe.calories * it.entry.servings },
-    proteinG = sumOf { it.recipe.proteinG * it.entry.servings },
-    carbsG = sumOf { it.recipe.carbsG * it.entry.servings },
-    fatG = sumOf { it.recipe.fatG * it.entry.servings },
+    calories = sumOf { it.recipe.calories * it.portionsEaten },
+    proteinG = sumOf { it.recipe.proteinG * it.portionsEaten },
+    carbsG = sumOf { it.recipe.carbsG * it.portionsEaten },
+    fatG = sumOf { it.recipe.fatG * it.portionsEaten },
 )
 
 class TodayViewModel(
@@ -138,3 +138,7 @@ class TodayViewModel(
         }
     }
 }
+
+/** Portions eaten today. A dinner's servings is the batch size (extra portions are tomorrow's leftovers). */
+internal val com.mealprepper.app.data.model.PlannedMeal.portionsEaten: Int
+    get() = if (entry.slot == com.mealprepper.app.data.model.MealType.DINNER) 1 else entry.servings

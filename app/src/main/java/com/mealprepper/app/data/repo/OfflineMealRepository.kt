@@ -86,6 +86,7 @@ class OfflineMealRepository(private val db: AppDatabase) : MealRepository {
             recipeDao.insertIngredients(
                 ingredients
                     .filter { it.name.isNotBlank() }
+                    .sortedBy { it.position } // stable: keeps caller order for equal positions
                     .mapIndexed { index, ing ->
                         ing.copy(
                             id = 0,

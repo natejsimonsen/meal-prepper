@@ -425,7 +425,7 @@ private fun RingStat(
 private fun MealRow(meal: PlannedMeal, onOpen: () -> Unit, onToggle: (Boolean) -> Unit) {
     val eaten = meal.entry.cooked
     val fade by animateFloatAsState(if (eaten) 0.55f else 1f, label = "mealFade")
-    val servings = meal.entry.servings
+    val servings = meal.portionsEaten
     Surface(
         onClick = onOpen,
         shape = MaterialTheme.shapes.large,
